@@ -1,9 +1,26 @@
 {% extends 'layout.njk' %}
 
 {% block content %}
-  <h1>Well, since you asked me what happened in Season 9 of John Finnemore’s Souvenir Programme…</h1>
+  <h1>Well, since you asked me {{ request }}…</h1>
   <div role="doc-subtitle">
-    I believe I have a list of events that you might find
+    I believe I have a series of events that you might find
     {{ ["educational", "informative", "illuminating"] | random }}.
   <div>
+  <ol class="events">
+    {% for event in events %}
+      <li>
+        <div class="timeline-ball" aria-hidden="true"></div>
+        <h2>{{ event.year }} – {{event.location}}</h2>
+        <div class="episode-link">
+          <a href="/what-happened-in/episode-{{ event.episode }}">Episode {{ event.episode }}</a>,
+          Scene {{ event.scene }}
+        </div>
+        {% for paragraph in event.description %}
+          <p>
+            {{ paragraph | withLinks }}
+          </p>
+        {% endfor %}
+      </li>
+    {% endfor %}
+  </ol>
 {% endblock %}

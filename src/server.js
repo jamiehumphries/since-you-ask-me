@@ -2,18 +2,22 @@ const express = require("express");
 const nunjucks = require("nunjucks");
 const path = require("path");
 
+const filters = require("./filters");
 const router = require("./router");
 
 const isDev = process.env.NODE_ENV === "development";
 
 const app = express();
 
-nunjucks.configure(path.join(__dirname, "frontend"), {
+const views = path.join(__dirname, "frontend");
+const nunjucksEnv = nunjucks.configure(views, {
   express: app,
   noCache: isDev,
   watch: isDev,
 });
-
+Object.entries(filters(nunjucksEnv)).forEach(([name, filter]) =>
+  nunjucksEnv.addFilter(name, filter)
+);
 app.set("view engine", "njk");
 
 app.use(router);
