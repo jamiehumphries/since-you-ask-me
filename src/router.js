@@ -41,7 +41,7 @@ router.get("/for-a-tale-of/:id([a-z-]+)", (req, res, next) => {
   if (!theme) {
     next();
   } else {
-    const request = `for a tale of of ${theme.text}`;
+    const request = `for a tale of ${theme.text}`;
     const events = data.events.filter((event) => event.themes.includes(id));
     res.render("events", { request, events });
   }
