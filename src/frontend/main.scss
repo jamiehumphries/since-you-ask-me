@@ -30,9 +30,34 @@ body {
   }
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 0.6em;
+    border-bottom: 1px dotted black;
+    position: absolute;
+    bottom: 2px;
+    transition: width 0.2s;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    &::before {
+      width: 1.2em;
+      max-width: 100%;
+    }
+  }
+}
+
 ol.events {
   list-style: none;
   padding: 0;
+  margin-top: 3rem;
   margin-left: $timeline-ball-size / 2;
   li {
     animation-name: fade-in;
