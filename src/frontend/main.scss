@@ -23,33 +23,9 @@ body {
   h1 {
     margin-top: 0;
     display: flex;
-    svg {
+    a {
       min-width: 100px;
       margin-left: 1rem;
-    }
-  }
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  font-weight: 600;
-  position: relative;
-  &::before {
-    content: "";
-    display: inline-block;
-    width: 0.6em;
-    border-bottom: 1px dotted black;
-    position: absolute;
-    bottom: 2px;
-    transition: width 0.2s;
-  }
-  &:hover,
-  &:focus,
-  &:active {
-    &::before {
-      width: 1.2em;
-      max-width: 100%;
     }
   }
 }
@@ -59,6 +35,31 @@ ol.events {
   padding: 0;
   margin-top: 3rem;
   margin-left: $timeline-ball-size / 2;
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 0.6em;
+      border-bottom: 1px dotted black;
+      position: absolute;
+      bottom: 2px;
+      transition: width 0.2s;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      &::before {
+        width: 1.2em;
+        max-width: 100%;
+      }
+    }
+  }
+
   li {
     animation-name: fade-in;
     animation-duration: 1s;
@@ -66,6 +67,7 @@ ol.events {
     border-left: $timeline-border-width solid black;
     padding: 0 0 1rem 2rem;
     position: relative;
+
     .timeline-ball {
       box-sizing: border-box;
       width: $timeline-ball-size;
@@ -76,10 +78,12 @@ ol.events {
       left: -($timeline-ball-size / 2) - ($timeline-border-width / 2);
       background-color: white;
     }
+
     h2 {
       margin: 0;
       font-size: $event-title-size;
     }
+
     .episode-link {
       font-size: small;
     }
