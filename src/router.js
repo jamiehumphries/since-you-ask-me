@@ -8,7 +8,7 @@ router.get("/", (req, res) => {
   const topic = "what happened in";
   const subject = "Season 9 of John Finnemore’s Souvenir Programme";
   const events = data.events;
-  res.render("events", { topic, subject, events });
+  res.render("events", { topic, subject, events, isHome: true });
 });
 
 router.get("/what-happened-in/episode-:number(\\d+)", (req, res, next) => {
