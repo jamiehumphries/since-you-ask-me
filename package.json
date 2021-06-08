@@ -15,7 +15,7 @@
     "dev:sass": "npm run sass && npm run sass -- --watch",
     "dev:server": "node-dev --inspect --respawn src/server.js",
     "dev:sync": "browser-sync start --config bs-config.js",
-    "sass": "node-sass src/frontend/ --output src/public/generated/css/",
+    "sass": "node-sass src/styles/ --output src/public/generated/css/",
     "start": "node src/server.js"
   },
   "dependencies": {

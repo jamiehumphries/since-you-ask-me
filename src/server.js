@@ -15,7 +15,7 @@ if (!isDev) {
   app.use(enforce.HTTPS({ trustProtoHeader: true }));
 }
 
-const views = path.join(__dirname, "frontend");
+const views = path.join(__dirname, "views");
 const nunjucksEnv = nunjucks.configure(views, {
   express: app,
   noCache: isDev,
@@ -27,6 +27,7 @@ Object.entries(filters(nunjucksEnv)).forEach(([name, filter]) =>
 app.set("view engine", "njk");
 
 app.use(router);
+
 app.use(express.static(path.join(__dirname, "public/static/")));
 app.use(express.static(path.join(__dirname, "public/generated/")));
 

@@ -1,6 +1,6 @@
 function notFoundHandler() {
   return (req, res) => {
-    res.status(404).render("not-found");
+    res.status(404).render("404-error");
   };
 }
 
@@ -11,7 +11,7 @@ function unexpectedErrorHandler(isDev) {
       return;
     }
     const options = isDev ? { error: err } : {};
-    res.status(500).render("error", options);
+    res.status(500).render("500-error", options);
   };
 }
 

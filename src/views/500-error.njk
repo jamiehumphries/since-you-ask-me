@@ -5,10 +5,11 @@
 {% set subject = '500: Unknown error' %}
 
 {% block content %}
-  {% call pageHeading() %}500: Oh dear! Something’s gone very wrong indeed.{% endcall
-  %}
+  {% call pageHeading() %}
+    500: Oh dear! Something’s gone very wrong indeed.
+  {% endcall %}
   {% if error %}
-    <pre class="error-display">{{ error }}</pre>
+    <pre class="error">{{ error }}</pre>
   {% else %}
     <p>An unexpected error has occurred.</p>
   {% endif %}

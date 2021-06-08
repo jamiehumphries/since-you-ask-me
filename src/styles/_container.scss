@@ -1,0 +1,30 @@
+$theme-color: #358a8a;
+
+.container {
+  max-width: 960px;
+  margin: auto;
+
+  border-top: 0.5rem solid $theme-color;
+  padding-top: 2rem;
+
+  h1 {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 400;
+    margin-top: 0;
+
+    .subject {
+      font-weight: 600;
+    }
+
+    a {
+      min-width: 100px;
+      margin-left: 1rem;
+
+      svg {
+        fill: $theme-color;
+      }
+    }
+  }
+}
