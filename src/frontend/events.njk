@@ -11,8 +11,15 @@
     </a>
   </h1>
   <div role="doc-subtitle">
-    I believe I can tell you of a series of events that you might find
-    {{ ["educational", "informative", "illuminating"] | random }}.
+    I believe I do have a series of events that you might find
+    {{ [
+      "educational",
+      "elucidative",
+      "enlightening",
+      "informative",
+      "illuminating",
+      "revelatory"
+    ] | random }}.
   <div>
   <ol class="events">
     {% for event in events %}
