@@ -1,6 +1,10 @@
 module.exports = (env) => {
   const safe = env.getFilter("safe");
 
+  function pageTitle(subject) {
+    return subject.replace(/[a-zA-Z]/, (letter) => letter.toUpperCase());
+  }
+
   function getLink(tag) {
     const type = tag[0];
     const id = tag.substring(1);
@@ -23,6 +27,7 @@ module.exports = (env) => {
   }
 
   return {
+    pageTitle,
     getLink,
     withLinks,
   };
