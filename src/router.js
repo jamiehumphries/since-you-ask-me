@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   const topic = "what happened in";
-  const subject = "Season 9 of John Finnemore’s Souvenir Programme";
+  const subject = "Series 9 of John Finnemore’s Souvenir Programme";
   const events = data.events;
   res.render("timeline", { topic, subject, events, isHome: true });
 });
