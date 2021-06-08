@@ -1,0 +1,13 @@
+{% extends 'layout.njk' %}
+
+{% from './components/page-heading/macro.njk' import pageHeading %}
+
+{% set subject = '404: Not found' %}
+
+{% block content %}
+  {% call pageHeading() %}
+  404: I’m afraid that I don’t know any stories like
+  that!{% endcall %}
+  <p>The requested page could not be found.</p>
+  <p><a href="/">Return to home page</a></p>
+{% endblock %}

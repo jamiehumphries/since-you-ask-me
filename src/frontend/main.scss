@@ -1,4 +1,5 @@
 $theme-color: #358a8a;
+$error-background-color: #e8e8e8;
 
 $event-title-size: 1.5rem;
 $timeline-border-width: 0.25rem;
@@ -30,8 +31,9 @@ body {
   }
 
   h1 {
-    margin-top: 0;
     display: flex;
+    justify-content: space-between;
+    margin-top: 0;
     font-weight: 400;
 
     .subject {
@@ -108,4 +110,11 @@ ol.events {
       font-size: small;
     }
   }
+}
+
+.error-display {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: $error-background-color;
+  white-space: pre-wrap;
 }

@@ -1,0 +1,18 @@
+{% extends 'layout.njk' %}
+
+{% from './components/page-heading/macro.njk' import pageHeading %}
+
+{% set subject = '500: Unknown error' %}
+
+{% block content %}
+  {% call pageHeading() %}500: Oh dear! Something’s gone very wrong indeed.{% endcall
+  %}
+  {% if error %}
+    <pre class="error-display">{{ error }}</pre>
+  {% else %}
+    <p>An unexpected error has occurred.</p>
+  {% endif %}
+  <p>
+    <a href="/">Return to home page</a>
+  </p>
+{% endblock %}

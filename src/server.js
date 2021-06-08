@@ -3,6 +3,7 @@ const enforce = require("express-sslify");
 const nunjucks = require("nunjucks");
 const path = require("path");
 
+const { notFoundHandler, unexpectedErrorHandler } = require("./error-handlers");
 const filters = require("./filters");
 const router = require("./router");
 
@@ -28,6 +29,9 @@ app.set("view engine", "njk");
 app.use(router);
 app.use(express.static(path.join(__dirname, "public/static/")));
 app.use(express.static(path.join(__dirname, "public/generated/")));
+
+app.use(notFoundHandler());
+app.use(unexpectedErrorHandler(isDev));
 
 if (isDev) {
   const bsConfig = require("../bs-config");
