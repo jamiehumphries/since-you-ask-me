@@ -1,6 +1,6 @@
 module.exports = [
   {
     id: "christmas-crackers",
-    text: "Christmas crackers",
+    subject: "Christmas crackers",
   },
 ];

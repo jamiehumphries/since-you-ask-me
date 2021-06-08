@@ -5,10 +5,10 @@ const data = require("./data");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  const request =
-    "what happened in Season 9 of John Finnemore’s Souvenir Programme";
+  const topic = "what happened in";
+  const subject = "Season 9 of John Finnemore’s Souvenir Programme";
   const events = data.events;
-  res.render("events", { request, events });
+  res.render("events", { topic, subject, events });
 });
 
 router.get("/what-happened-in/episode-:number(\\d+)", (req, res, next) => {
@@ -17,9 +17,10 @@ router.get("/what-happened-in/episode-:number(\\d+)", (req, res, next) => {
   if (episode < 1 || episode > 6) {
     next();
   } else {
-    const request = `what happened in Episode ${number}`;
+    const topic = "what happened in";
+    const subject = `Episode ${episode}`;
     const events = data.events.filter((event) => event.episode === episode);
-    res.render("events", { request, events });
+    res.render("events", { topic, subject, events });
   }
 });
 
@@ -29,9 +30,10 @@ router.get("/for-the-life-history-of/:id([a-z-]+)", (req, res, next) => {
   if (!character) {
     next();
   } else {
-    const request = `for the life history of ${character.fullName}`;
+    const topic = "for the life history of";
+    const subject = character.fullName;
     const events = data.events.filter((event) => event.characters.includes(id));
-    res.render("events", { request, events });
+    res.render("events", { topic, subject, events });
   }
 });
 
@@ -41,9 +43,10 @@ router.get("/for-a-tale-of/:id([a-z-]+)", (req, res, next) => {
   if (!theme) {
     next();
   } else {
-    const request = `for a tale of ${theme.text}`;
+    const topic = "for a tale of";
+    const subject = theme.subject;
     const events = data.events.filter((event) => event.themes.includes(id));
-    res.render("events", { request, events });
+    res.render("events", { topic, subject, events });
   }
 });
 

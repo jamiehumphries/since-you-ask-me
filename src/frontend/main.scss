@@ -1,3 +1,5 @@
+$theme-color: #358a8a;
+
 $event-title-size: 1.5rem;
 $timeline-border-width: 0.25rem;
 $timeline-ball-size: $event-title-size + (2 * $timeline-border-width) + 0.1rem;
@@ -13,19 +15,36 @@ $timeline-ball-size: $event-title-size + (2 * $timeline-border-width) + 0.1rem;
 
 body {
   font-family: "Open Sans", sans-serif;
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
+  margin-top: 0;
 }
 
 .container {
   max-width: 960px;
   margin: auto;
 
+  .bar {
+    height: 0.5rem;
+    background-color: $theme-color;
+    margin-bottom: 2rem;
+  }
+
   h1 {
     margin-top: 0;
     display: flex;
+    font-weight: 400;
+
+    .subject {
+      font-weight: 600;
+    }
+
     a {
       min-width: 100px;
       margin-left: 1rem;
+
+      svg {
+        fill: $theme-color;
+      }
     }
   }
 }
@@ -64,7 +83,7 @@ ol.events {
     animation-name: fade-in;
     animation-duration: 1s;
     animation-fill-mode: both;
-    border-left: $timeline-border-width solid black;
+    border-left: $timeline-border-width solid $theme-color;
     padding: 0 0 1rem 2rem;
     position: relative;
 
@@ -72,7 +91,7 @@ ol.events {
       box-sizing: border-box;
       width: $timeline-ball-size;
       height: $timeline-ball-size;
-      border: $timeline-border-width solid black;
+      border: $timeline-border-width solid $theme-color;
       border-radius: 50%;
       position: absolute;
       left: -($timeline-ball-size / 2) - ($timeline-border-width / 2);
@@ -81,6 +100,7 @@ ol.events {
 
     h2 {
       margin: 0;
+      font-weight: 600;
       font-size: $event-title-size;
     }
 
