@@ -14,7 +14,7 @@
 {% block content %}
   {% call pageHeading() %}
     Well, since you ask me {{ topic }}
-    <span class="subject">{{ subject }}</span>…
+    <span class="subject">{{ subject | safe }}</span>…
   {% endcall %}
   <p>
     I believe I do have a series of events that you might find {{ synonyms | random }}.

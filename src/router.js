@@ -37,7 +37,7 @@ router.get("/for-the-life-history-of/:id([a-z-]+)", (req, res, next) => {
   }
 });
 
-router.get("/for-a-tale-of/:id([a-z-]+)", (req, res, next) => {
+router.get("/for-a-tale-of/:id([0-9a-z-]+)", (req, res, next) => {
   const { id } = req.params;
   const theme = data.themes.find((t) => t.id === id);
   if (!theme) {

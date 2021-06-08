@@ -19,7 +19,7 @@ module.exports = (env) => {
 
   function withLinks(paragraph) {
     return safe(
-      paragraph.replace(/\[([^\]]+)\]\(([@#][a-z-]+)\)/g, (_, text, tag) => {
+      paragraph.replace(/\[([^\]]+)\]\(([@#][0-9a-z-]+)\)/g, (_, text, tag) => {
         const link = getLink(tag);
         return `<a href="${link}">${text}</a>`;
       })
