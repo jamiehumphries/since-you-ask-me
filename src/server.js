@@ -1,4 +1,5 @@
 const express = require("express");
+const enforce = require("express-sslify");
 const nunjucks = require("nunjucks");
 const path = require("path");
 
@@ -8,6 +9,10 @@ const router = require("./router");
 const isDev = process.env.NODE_ENV === "development";
 
 const app = express();
+
+if (!isDev) {
+  app.use(enforce.HTTPS({ trustProtoHeader: true }));
+}
 
 const views = path.join(__dirname, "frontend");
 const nunjucksEnv = nunjucks.configure(views, {
