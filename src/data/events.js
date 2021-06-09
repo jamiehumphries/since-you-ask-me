@@ -34,7 +34,7 @@ const events = [
     location: "Lanzarote",
     description: [
       "On the beach, [Alex](@alex) asks [Russ](@russ-golding) about a little mark on his shoulder. " +
-        "Russ tells him that it is a [tattoo](#tattoos) of the lower jawbone of a crocodile.",
+        "Russ tells him that it is a [tattoo](#russ-tattoo) of the lower jawbone of a crocodile.",
       "He explains that a crocodile has strong muscles for closing its jaw but only weak ones for opening it. " +
         "He claims that the tattoo is to remind him that strength depends on how you measure it.",
     ],
@@ -62,7 +62,7 @@ const events = [
       "After an initial stunned silence, the rest of the band start to laugh at Russ’ insistence that this is how the song goes. " +
         "Their hilarity grows as Russ sings in a high pitched voice and explains that it is the nightingale doing dog impressions.",
       "The lead singer resolves that they are doing the song. " +
-        "He dismisses the rest of the band except for Russ, to whom he says: “You and me are writing a song, [Jawbone](#tattoos).”",
+        "He dismisses the rest of the band except for Russ, to whom he says: “You and me are writing a song, [Jawbone](#russ-tattoo).”",
     ],
   },
   {
@@ -72,7 +72,7 @@ const events = [
     inYearSortOrder: 0,
     location: "Hastings",
     description: [
-      "[Russ](@russ-golding) asks a tattoo artist to give him the smallest possible [animal tattoo](#tattoos) which is still recognisable. " +
+      "[Russ](@russ-golding) asks a tattoo artist to give him the smallest possible [animal tattoo](#russ-tattoo) which is still recognisable. " +
         "They decide on a crocodile.",
       "When asked, Russ admits that he is only getting the tattoo because of peer pressure from [his band](#pier-pressure). " +
         "In fact, he reveals, that is literally the name of the band (although they spell it ‘Pier Pressure’ because of Hastings pier).",
