@@ -2,7 +2,9 @@ module.exports = (env) => {
   const safe = env.getFilter("safe");
 
   function pageTitle(subject) {
-    return subject.replace(/[a-zA-Z]/, (letter) => letter.toUpperCase());
+    return subject
+      .replace(/<\/?em>/g, "")
+      .replace(/[a-zA-Z]/, (letter) => letter.toUpperCase());
   }
 
   function getLink(tagOrUrl, sortChronologically) {
