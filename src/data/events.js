@@ -34,7 +34,7 @@ const events = [
     location: "Lanzarote",
     description: [
       "On the beach, [Alex](@alex) asks [Russ](@russ-golding) about a little mark on his shoulder. " +
-        "Russ tells him that it his [tattoo](#tattoos) of the lower jawbone of a crocodile.",
+        "Russ tells him that it is a [tattoo](#tattoos) of the lower jawbone of a crocodile.",
       "He explains that a crocodile has strong muscles for closing its jaw but only weak ones for opening it. " +
         "He claims that the tattoo is to remind him that strength depends on how you measure it.",
     ],
@@ -58,9 +58,9 @@ const events = [
     location: "Hastings",
     description: [
       "In a band meeting, one of the members of [Pier Pressure](#pier-pressure) suggests they do a cover of <em>A Nightingale Sang in Berkeley Square</em>. " +
-        "Russ insists that they should do “the famous bit” and gives a short rendition of [<em>Woof, Woof, Woof</em>](#woof-woof-woof).",
+        "[Russ](@russ-golding) insists that they should do “the famous bit” and gives a short rendition of [<em>Woof, Woof, Woof</em>](#woof-woof-woof).",
       "After an initial stunned silence, the rest of the band start to laugh at Russ’ insistence that this is how the song goes. " +
-        "Their hilarity grows as Russ sings in a high pitched voice and explains that the nightingale is doing the dog impressions.",
+        "Their hilarity grows as Russ sings in a high pitched voice and explains that it is the nightingale doing dog impressions.",
       "The lead singer resolves that they are doing the song. " +
         "He dismisses the rest of the band except for Russ, to whom he says: “You and me are writing a song, [Jawbone](#tattoos).”",
     ],
