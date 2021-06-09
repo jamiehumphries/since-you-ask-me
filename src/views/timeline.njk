@@ -34,12 +34,16 @@
           {{ event.year }} – {{ event.location }}
         </h2>
         <div class="episode-link">
-          <a href="/what-happened-in/episode-{{ event.episode }}{{ '?starting-from-the-beginning' if sortChronologically }}">Episode {{ event.episode }}</a>,
+          {% if activeTag === '+' + event.episode %}
+            <span class="active-tag">Episode {{ event.episode }}</span>,
+          {% else %}
+            <a href="/what-happened-in/episode-{{ event.episode }}{{ '?starting-from-the-beginning' if sortChronologically }}">Episode {{ event.episode }}</a>,
+          {% endif %}
           Scene {{ event.scene }}
         </div>
         {% for paragraph in event.description %}
           <p>
-            {{ paragraph | withLinks(sortChronologically) }}
+            {{ paragraph | withLinks(activeTag, sortChronologically) }}
           </p>
         {% endfor %}
       </li>

@@ -22,11 +22,12 @@ router.get(
     } else {
       const topic = "what happened in";
       const subject = `Episode ${episode}`;
+      const activeTag = `+${episode}`;
       const events = getEvents(
         (event) => event.episode === episode,
         res.locals.sortChronologically
       );
-      res.render("timeline", { topic, subject, events });
+      res.render("timeline", { topic, subject, activeTag, events });
     }
   }
 );
@@ -42,11 +43,12 @@ router.get(
     } else {
       const topic = "for the life history of";
       const subject = character.fullName;
+      const activeTag = `@${id}`;
       const events = getEvents(
         (event) => event.characters.includes(id),
         res.locals.sortChronologically
       );
-      res.render("timeline", { topic, subject, events });
+      res.render("timeline", { topic, subject, activeTag, events });
     }
   }
 );
@@ -62,11 +64,12 @@ router.get(
     } else {
       const topic = "for a tale of";
       const subject = theme.subject;
+      const activeTag = `#${id}`;
       const events = getEvents(
         (event) => event.themes.includes(id),
         res.locals.sortChronologically
       );
-      res.render("timeline", { topic, subject, events });
+      res.render("timeline", { topic, subject, activeTag, events });
     }
   }
 );
