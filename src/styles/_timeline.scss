@@ -20,28 +20,17 @@ $timeline-ball-size: $event-title-size + (2 * $timeline-border-width) + 0.1rem;
 
   a {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: grey;
     font-weight: 600;
 
     position: relative;
 
-    &::before {
-      content: "";
-      display: inline-block;
-      position: absolute;
-      bottom: 2px;
-
-      width: 0.6em;
-      transition: width 0.2s;
-      border-bottom: 1px dotted black;
-    }
-
     &:hover,
     &:focus,
     &:active {
-      &::before {
-        width: 1.2em;
-      }
+      text-decoration-color: black;
     }
   }
 
