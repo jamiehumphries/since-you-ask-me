@@ -37,5 +37,14 @@
         {% endfor %}
       </li>
     {% endfor %}
+    <li style="animation-delay: {{ (events | length) * 200 }}ms;">
+      <div class="timeline-ball" aria-hidden="true"></div>
+      <h2>
+        ⚠️ Work in progress!
+      </h2>
+      <p>
+        This website is still under construction. Please check back in a week or so. 🙂
+      </p>
+    </li>
   </ol>
 {% endblock %}
