@@ -5,24 +5,32 @@ module.exports = (env) => {
     return subject.replace(/[a-zA-Z]/, (letter) => letter.toUpperCase());
   }
 
-  function getLink(tag) {
-    const type = tag[0];
-    const id = tag.substring(1);
-    if (type === "@") {
-      return `/for-the-life-history-of/${id}`;
-    } else if (type === "#") {
-      return `/for-a-tale-of/${id}`;
+  function getLink(tagOrUrl, sortChronologically) {
+    const tagType = tagOrUrl[0];
+    const tagId = tagOrUrl.substring(1);
+    let path;
+    if (tagType === "@") {
+      path = `/for-the-life-history-of/${tagId}`;
+    } else if (tagType === "#") {
+      path = `/for-a-tale-of/${tagId}`;
     } else {
-      return null;
+      return tagOrUrl;
     }
+    if (sortChronologically) {
+      path += "?starting-from-the-beginning";
+    }
+    return path;
   }
 
-  function withLinks(paragraph) {
+  function withLinks(paragraph, sortChronologically) {
     return safe(
-      paragraph.replace(/\[([^\]]+)\]\(([@#][0-9a-z-]+)\)/g, (_, text, tag) => {
-        const link = getLink(tag);
-        return `<a href="${link}">${text}</a>`;
-      })
+      paragraph.replace(
+        /\[([^\]]+)\]\(([@#][0-9a-z-]+)\)/g,
+        (_, text, tagOrUrl) => {
+          const link = getLink(tagOrUrl, sortChronologically);
+          return `<a href="${link}">${text}</a>`;
+        }
+      )
     );
   }
 

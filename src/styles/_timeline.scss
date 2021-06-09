@@ -11,10 +11,37 @@ $timeline-ball-size: $event-title-size + (2 * $timeline-border-width) + 0.1rem;
   }
 }
 
+.i-believe-text {
+  font-size: large;
+}
+
+.timeline-ordering {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+
+  font-size: small;
+
+  .active {
+    color: $theme-color;
+    font-weight: bold;
+  }
+
+  a {
+    color: $theme-color;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+}
+
 .timeline {
   list-style: none;
 
-  margin-top: 3rem;
+  margin-top: 0;
   margin-left: $timeline-ball-size / 2;
   padding: 0;
 

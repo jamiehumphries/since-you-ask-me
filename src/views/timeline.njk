@@ -16,9 +16,16 @@
     Well, since you ask me {{ topic }}
     <span class="subject">{{ subject | safe }}</span>…
   {% endcall %}
-  <p>
+  <p class="i-believe-text">
     I believe I do have a series of events that you might find {{ synonyms | random }}.
   </p>
+  <header class="timeline-ordering">
+    {% if sortChronologically %}
+      <a href="?">Broadcast order</a> | <span class="active">Chronological order</span>
+    {% else %}
+      <span class="active">Broadcast order</span> | <a href="?starting-from-the-beginning">Chronological order</a>
+    {% endif %}
+  </header>
   <ol class="timeline">
     {% for event in events %}
       <li style="animation-delay: {{ loop.index0 * 200 }}ms;">
@@ -27,12 +34,12 @@
           {{ event.year }} – {{ event.location }}
         </h2>
         <div class="episode-link">
-          <a href="/what-happened-in/episode-{{ event.episode }}">Episode {{ event.episode }}</a>,
+          <a href="/what-happened-in/episode-{{ event.episode }}{{ '?starting-from-the-beginning' if sortChronologically }}">Episode {{ event.episode }}</a>,
           Scene {{ event.scene }}
         </div>
         {% for paragraph in event.description %}
           <p>
-            {{ paragraph | withLinks }}
+            {{ paragraph | withLinks(sortChronologically) }}
           </p>
         {% endfor %}
       </li>
