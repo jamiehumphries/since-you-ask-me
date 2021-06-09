@@ -21,9 +21,19 @@
   </p>
   <header class="timeline-ordering">
     {% if sortChronologically %}
-      <a href="?">Broadcast order</a> | <span class="active">Chronological order</span>
+      <div class="timeline-ordering-option">
+        <a href="?"><span class="sr-only">Switch to </span>Broadcast order</a>
+      </div>
+      <div class="timeline-ordering-option">
+        <span class="active"><span class="sr-only">Currently in </span>Chronological order</span>
+      </div>
     {% else %}
-      <span class="active">Broadcast order</span> | <a href="?starting-from-the-beginning">Chronological order</a>
+      <div class="timeline-ordering-option">
+        <span class="active"><span class="sr-only">Currently in </span>Broadcast order</span>
+      </div>
+      <div class="timeline-ordering-option">
+        <a href="?starting-from-the-beginning"><span class="sr-only">Switch to </span>Chronological order</a>
+      </div>
     {% endif %}
   </header>
   <ol class="timeline">
