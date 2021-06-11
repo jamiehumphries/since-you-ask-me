@@ -11,7 +11,11 @@ module.exports = (env, isDev) => {
 
   function toTimeline(event, activeTag, sortChronologically) {
     const paragraphs = getParagraphs(event, activeTag, sortChronologically);
-    const additionalInfo = getAdditionalInfo(event, activeTag);
+    const additionalInfo = getAdditionalInfo(
+      event,
+      activeTag,
+      sortChronologically
+    );
     let html = `<p>${paragraphs.join("</p><p>")}</p>`;
     if (additionalInfo.length > 0) {
       html += `<ul><li>${additionalInfo.join("</li><li>")}</li></ul>`;
@@ -55,13 +59,17 @@ module.exports = (env, isDev) => {
     return path;
   }
 
-  function getAdditionalInfo(event, tag) {
+  function getAdditionalInfo(event, tag, sortChronologically) {
     if (!tag?.startsWith("@")) {
       return [];
     }
     const character = characters.find((c) => c.id === tag.substring(1));
     const ageInfo = getAgeInfo(character, event);
-    const relationshipInfo = getRelationshipInfo(character, event);
+    const relationshipInfo = getRelationshipInfo(
+      character,
+      event,
+      sortChronologically
+    );
     return ageInfo.concat(relationshipInfo);
   }
 
@@ -106,7 +114,7 @@ module.exports = (env, isDev) => {
     return `about ${event.year - eventAtKnownAge.year + knownAge.age}`;
   }
 
-  function getRelationshipInfo(character, event) {
+  function getRelationshipInfo(character, event, sortChronologically) {
     const eventCharacters = event.description
       .match(/@[a-z-]+/g)
       .map((tag) => tag.substring(1));
@@ -118,7 +126,8 @@ module.exports = (env, isDev) => {
       const characterPossessive = `${character.shortName}’${
         character.shortName.endsWith("s") ? "" : "s"
       }`;
-      return `${relation.shortName} is ${characterPossessive} ${r.relationship}`;
+      const relationLink = getLink(`@${relation.id}`, sortChronologically);
+      return `<a href="${relationLink}">${relation.shortName}</a> is ${characterPossessive} ${r.relationship}`;
     });
   }
 
