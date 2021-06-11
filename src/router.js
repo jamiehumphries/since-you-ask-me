@@ -75,8 +75,8 @@ router.get(
 );
 
 function handleSortQuery(req, res, next) {
-  if (req.originalUrl[req.originalUrl.length - 1] === "?") {
-    res.redirect(req.originalUrl.substring(0, req.originalUrl.length - 1));
+  if (req.originalUrl.endsWith("?in-broadcast-order")) {
+    res.redirect(req.path);
   } else {
     res.locals.sortChronologically =
       req.query["starting-from-the-beginning"] !== undefined;
