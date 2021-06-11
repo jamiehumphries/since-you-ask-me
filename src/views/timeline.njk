@@ -12,7 +12,7 @@
 ] %}
 
 {% block content %}
-  {% call pageHeading() %}
+  {% call pageHeading({ sortChronologically: sortChronologically }) %}
     Well, since you ask me {{ topic }}
     <span class="subject">{{ subject | safe }}</span>…
   {% endcall %}
