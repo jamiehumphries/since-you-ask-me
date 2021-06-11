@@ -11,6 +11,8 @@
   'revelatory'
 ] %}
 
+{% set description = 'Well, since you ask me ' + topic + ' ' + subject + '…' %}
+
 {% block content %}
   {% call pageHeading({ sortChronologically: sortChronologically }) %}
     Well, since you ask me {{ topic }}
