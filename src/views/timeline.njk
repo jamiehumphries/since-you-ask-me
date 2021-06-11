@@ -39,7 +39,6 @@
   <ol class="timeline">
     {% for event in events %}
       <li style="animation-delay: {{ loop.index0 * 200 }}ms;">
-        <div class="timeline-ball" aria-hidden="true"></div>
         <h2>
           {{ event.year }} – {{ event.location }}
         </h2>
