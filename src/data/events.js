@@ -3,7 +3,7 @@ const events = [
     episode: 1,
     scene: 1,
     year: 2020,
-    inYearSortOrder: 0,
+    inYearSortIndex: 0,
     location: "Online",
     description: `
       During the [COVID-19 pandemic](#the-covid-19-pandemic), [Deborah](@deborah) and [Jerry](@jerry-wilkinson)
@@ -22,7 +22,7 @@ const events = [
     episode: 1,
     scene: 2,
     year: 2018,
-    inYearSortOrder: 0,
+    inYearSortIndex: 0,
     location: "Hastings",
     description: `
       In preparation for [Pier Pressure](#pier-pressure) playing at a [funeral](#funerals)
@@ -37,7 +37,7 @@ const events = [
     episode: 1,
     scene: 3,
     year: 2010,
-    inYearSortOrder: 0,
+    inYearSortIndex: 0,
     location: "Lanzarote",
     description: `
       On the beach, [Alex](@alex) asks [Russ](@russ-golding) about a little mark on his shoulder.
@@ -51,7 +51,7 @@ const events = [
     episode: 1,
     scene: 4,
     year: 2006,
-    inYearSortOrder: 0,
+    inYearSortIndex: 0,
     location: "Larmer Tree Festival",
     description: `
       [Pier Pressure](#pier-pressure) perform their version of [<em>Woof, Woof, Woof</em>](#woof-woof-woof) at the festival.
@@ -63,7 +63,7 @@ const events = [
     episode: 1,
     scene: 5,
     year: 2004,
-    inYearSortOrder: 0,
+    inYearSortIndex: 0,
     location: "Hastings",
     description: `
       In a band meeting, one of the members of [Pier Pressure](#pier-pressure) suggests they do a cover of <em>A Nightingale Sang in Berkeley Square</em>.
@@ -80,7 +80,7 @@ const events = [
     episode: 1,
     scene: 6,
     year: 2003,
-    inYearSortOrder: 0,
+    inYearSortIndex: 0,
     location: "Hastings",
     description: `
       [Russ](@russ-golding) asks a tattoo artist to give him the smallest possible [tattoo](#russ-tattoo) which is still recognisably an animal.
@@ -96,7 +96,7 @@ const events = [
     episode: 0,
     scene: 0,
     year: 2021,
-    inYearSortOrder: 0,
+    inYearSortIndex: 0,
     location: "Placeholder",
     description: "",
   },

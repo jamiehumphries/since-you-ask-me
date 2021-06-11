@@ -54,30 +54,44 @@ module.exports = (env) => {
       return [];
     }
     const character = characters.find((c) => c.id === tag.substring(1));
-    const age = getAge(character, event);
-    const ageInfo = age
-      ? [`${character.shortName} is ${age} years old in this scene`]
-      : [];
-    const relationships = getRelationships(character, event);
-    const relationshipInfo = relationships.map((r) => {
-      const relation = characters.find((c) => c.id === r.character);
-      const characterPossessive = `${character.shortName}’${
-        character.shortName.endsWith("s") ? "" : "s"
-      }`;
-      return `${relation.shortName} is ${characterPossessive} ${r.relationship}`;
-    });
+    const ageInfo = getAgeInfo(character, event);
+    const relationshipInfo = getRelationshipInfo(character, event);
     return ageInfo.concat(relationshipInfo);
   }
 
-  function getAge(character, event) {
+  function getAgeInfo(character, event) {
     if (character.knownAges?.length === 0) {
-      return null;
+      return [];
     }
+    const deathComparator = getDeathComparator(character, event);
+    if (deathComparator < 0) {
+      return [];
+    }
+    const age = getAge(character, event);
+    const yearsOld = `${age} year${age !== 1 ? "s" : ""} old`;
+    return [
+      deathComparator === 0
+        ? `${character.shortName} was ${yearsOld} when ${character.pronouns[0]} died`
+        : `${character.shortName} is ${yearsOld} in this scene`,
+    ];
+  }
+
+  function getDeathComparator(character, event) {
+    if (!character.death) {
+      return +1;
+    }
+    return (
+      character.death.year - event.year ||
+      character.death.inYearSortIndex - event.inYearSortIndex
+    );
+  }
+
+  function getAge(character, event) {
     const eventAge = character.knownAges.find(
       (a) => a.episode === event.episode && a.scene === event.scene
     );
     if (eventAge) {
-      return eventAge.age;
+      return `${eventAge.age}`;
     }
     const knownAge = character.knownAges[0];
     const eventAtKnownAge = events.find(
@@ -86,13 +100,20 @@ module.exports = (env) => {
     return `about ${event.year - eventAtKnownAge.year + knownAge.age}`;
   }
 
-  function getRelationships(character, event) {
+  function getRelationshipInfo(character, event) {
     const eventCharacters = event.description
       .match(/@[a-z-]+/g)
       .map((tag) => tag.substring(1));
-    return eventCharacters
+    const relationships = eventCharacters
       .map((id) => character.relationships.find((r) => r.character === id))
       .filter((r) => !!r);
+    return relationships.map((r) => {
+      const relation = characters.find((c) => c.id === r.character);
+      const characterPossessive = `${character.shortName}’${
+        character.shortName.endsWith("s") ? "" : "s"
+      }`;
+      return `${relation.shortName} is ${characterPossessive} ${r.relationship}`;
+    });
   }
 
   return {

@@ -115,7 +115,7 @@ function chronologicalOrdering(e1, e2) {
   if (e1.year !== e2.year) {
     return e1.year - e2.year;
   } else {
-    return e1.inYearSortOrder - e2.inYearSortOrder;
+    return e1.inYearSortIndex - e2.inYearSortIndex;
   }
 }
 
