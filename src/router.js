@@ -33,6 +33,28 @@ router.get(
 );
 
 router.get(
+  "/what-happened-in/episode-:episodeNumber(\\d+)/scene-:sceneNumber(\\d+)",
+  handleSortQuery,
+  (req, res, next) => {
+    const { episodeNumber, sceneNumber } = req.params;
+    const episode = parseInt(episodeNumber);
+    const scene = parseInt(sceneNumber);
+    const topic = "what happened in";
+    const subject = `Episode ${episode}, Scene ${scene}`;
+    const activeTag = `~`;
+    const events = getEvents(
+      (event) => event.episode === episode && event.scene === scene,
+      false
+    );
+    if (events.length === 0) {
+      next();
+    } else {
+      res.render("timeline", { topic, subject, activeTag, events });
+    }
+  }
+);
+
+router.get(
   "/for-the-life-history-of/:id([a-z-]+)",
   handleSortQuery,
   (req, res, next) => {

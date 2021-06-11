@@ -20,20 +20,22 @@
     I believe I do have a series of events that you might find {{ synonyms | random }}.
   </p>
   <header class="timeline-ordering">
-    {% if sortChronologically %}
-      <div class="timeline-ordering-option">
-        <a href="?in-broadcast-order"><span class="sr-only">Switch to </span>Broadcast order</a>
-      </div>
-      <div class="timeline-ordering-option">
-        <span class="active"><span class="sr-only">Currently in </span>Chronological order</span>
-      </div>
-    {% else %}
-      <div class="timeline-ordering-option">
-        <span class="active"><span class="sr-only">Currently in </span>Broadcast order</span>
-      </div>
-      <div class="timeline-ordering-option">
-        <a href="?starting-from-the-beginning"><span class="sr-only">Switch to </span>Chronological order</a>
-      </div>
+    {% if activeTag !== '~' %}
+      {% if sortChronologically %}
+        <div class="timeline-ordering-option">
+          <a href="?in-broadcast-order"><span class="sr-only">Switch to </span>Broadcast order</a>
+        </div>
+        <div class="timeline-ordering-option">
+          <span class="active"><span class="sr-only">Currently in </span>Chronological order</span>
+        </div>
+      {% else %}
+        <div class="timeline-ordering-option">
+          <span class="active"><span class="sr-only">Currently in </span>Broadcast order</span>
+        </div>
+        <div class="timeline-ordering-option">
+          <a href="?starting-from-the-beginning"><span class="sr-only">Switch to </span>Chronological order</a>
+        </div>
+      {% endif %}
     {% endif %}
   </header>
   <ol class="timeline">
@@ -48,7 +50,11 @@
           {% else %}
             <a href="/what-happened-in/episode-{{ event.episode }}{{ '?starting-from-the-beginning' if sortChronologically }}">Episode {{ event.episode }}</a>,
           {% endif %}
-          Scene {{ event.scene }}
+          {% if activeTag === '~'%}
+            <span class="active-tag">Scene {{ event.scene }}</span>
+          {% else %}
+            <a href="/what-happened-in/episode-{{ event.episode }}/scene-{{ event.scene }}{{ '?starting-from-the-beginning' if sortChronologically }}">Scene {{ event.scene }}</a>
+          {% endif %}
         </div>
         {{ event | toTimeline(activeTag, sortChronologically) }}
       </li>
