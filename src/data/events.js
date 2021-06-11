@@ -6,16 +6,18 @@ const events = [
     inYearSortIndex: 0,
     location: "Online",
     description: `
-      During the [COVID-19 pandemic](#the-covid-19-pandemic), [Deborah](@deborah) and [Jerry](@jerry-wilkinson)
+      During the [COVID-19 lockdown](#covid-19), [Deborah](@deborah) and [Jerry](@jerry-wilkinson)
       coordinate to virtually pull a [Christmas cracker](#christmas-crackers) on a family video call.
       They are helped in their attempt by [Toby](@toby) and [Alex](@alex), and lightly teased by [Russ](@russ-golding).
 
-      While playing charades, Deborah [calls the rest of the family “spaniels”](#jerrys-aphasia) for deliberately avoiding
-      the correct guess (even though she had already revealed the answer by accident).
+      While playing a round of charades, Deborah calls the rest of the family [“spaniels”](#jerrys-aphasia) for deliberately
+      avoiding the correct guess (even though she had already revealed the answer by accident).
 
       The family each rip up the hat that they get from their cracker, although Alex has to first be reminded to do so.
 
-      At one point during the call, Alex [tells Toby to let their dog, Oswald, out](#dogs).
+      Instead of Christmas [pudding](#desserts), Deborah has half a scotch egg.
+
+      At one point during the call, Alex tells Toby to let their [dog](#dogs), Oswald, out.
     `,
   },
   {
@@ -25,12 +27,11 @@ const events = [
     inYearSortIndex: 0,
     location: "Hastings",
     description: `
-      In preparation for [Pier Pressure](#pier-pressure) playing at a [funeral](#funerals)
+      In preparation for [Pier Pressure](#pier-pressure) playing at a [funeral](#funerals),
       [Russ](@russ-golding) phones the bereaved to discussed the setlist.
 
-      Russ informs him that they cannot perform <em>Ding-Dong! The Witch is Dead</em> and they have to stick to the
-      original lyrics for <em>Always Look on the Bright Side of Life</em>,
-      but can otherwise accommodate his (largely witch-themed) requests.
+      Russ informs him that they cannot perform <em>Ding-Dong! The Witch is Dead</em> and that they have to stick to the original lyrics for
+      <em>Always Look on the Bright Side of Life</em>, but can otherwise accommodate his (largely witch-themed) requests.
     `,
   },
   {
@@ -54,7 +55,7 @@ const events = [
     inYearSortIndex: 0,
     location: "Larmer Tree Festival",
     description: `
-      [Pier Pressure](#pier-pressure) perform their version of [<em>Woof, Woof, Woof</em>](#woof-woof-woof) at the festival.
+      [Pier Pressure](#pier-pressure) perform their version of [<em>Woof, Woof, Woof</em>](#woof-woof-woof) at the Larmer Tree Festival.
 
       The song is introduced as being “from the diseased mind of [the drummer](@russ-golding)” and features various dog impressions.
     `,
@@ -84,12 +85,12 @@ const events = [
     location: "Hastings",
     description: `
       [Russ](@russ-golding) asks a tattoo artist to give him the smallest possible [tattoo](#russ-tattoo) which is still recognisably an animal.
-      They decide on a crocodile, because it is thin but distinctively shaped.
+      They decide on a crocodile, because it is thin but distinctive.
 
       When asked, Russ admits that he is only getting the tattoo because of peer pressure from [his band](#pier-pressure).
-      In fact, that is literally the name of the band (although they spell it ‘Pier Pressure’ because of Hastings pier).
+      In fact, he goes on to say, that is literally the name of the band (although they spell it ‘Pier Pressure’ because of Hastings Pier).
 
-      The tattoo artist lets him change this answer so that she is allowed to give him the tattoo, but tells him that she can stop anytime.
+      The tattoo artist lets him change this answer so that she is allowed to give him the tattoo, but tells him that she can stop anytime he wants.
     `,
   },
   {

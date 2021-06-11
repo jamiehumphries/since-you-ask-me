@@ -42,7 +42,7 @@ module.exports = [
     fullName: "Russ Golding",
     shortName: "Russ",
     pronouns: ["he", "him"],
-    knownAges: [{ episode: 1, scene: 6, age: 16 }],
+    knownAges: [{ episode: 1, scene: 6, age: 19 }],
     death: null,
     relationships: [
       { character: "alex", relationship: "partner" },

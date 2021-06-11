@@ -8,6 +8,14 @@ module.exports = [
     subject: "funerals",
   },
   {
+    id: "covid-19",
+    subject: "COVID-19",
+  },
+  {
+    id: "desserts",
+    subject: "desserts",
+  },
+  {
     id: "dogs",
     subject: "dogs",
   },
@@ -22,10 +30,6 @@ module.exports = [
   {
     id: "russ-tattoo",
     subject: "Russ’ tattoo",
-  },
-  {
-    id: "the-covid-19-pandemic",
-    subject: "the COVID-19 pandemic",
   },
   {
     id: "woof-woof-woof",
