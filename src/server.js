@@ -21,7 +21,7 @@ const nunjucksEnv = nunjucks.configure(views, {
   noCache: isDev,
   watch: isDev,
 });
-Object.entries(filters(nunjucksEnv)).forEach(([name, filter]) =>
+Object.entries(filters(nunjucksEnv, isDev)).forEach(([name, filter]) =>
   nunjucksEnv.addFilter(name, filter)
 );
 app.set("view engine", "njk");

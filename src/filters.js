@@ -1,6 +1,6 @@
-const { characters, events } = require("./data");
+const { characters, events, themes } = require("./data");
 
-module.exports = (env) => {
+module.exports = (env, isDev) => {
   const safe = env.getFilter("safe");
 
   function pageTitle(subject) {
@@ -38,8 +38,14 @@ module.exports = (env) => {
     let path;
     if (tagType === "@") {
       path = `/for-the-life-history-of/${tagId}`;
+      if (isDev && !characters.find((c) => c.id === tagId)) {
+        throw new Error(`Unmapped character: ${tag}`);
+      }
     } else if (tagType === "#") {
       path = `/for-a-tale-of/${tagId}`;
+      if (isDev && !themes.find((t) => t.id === tagId)) {
+        throw new Error(`Unmapped theme: ${tag}`);
+      }
     } else {
       throw new Error(`Unexpected tag: ${tag}`);
     }
