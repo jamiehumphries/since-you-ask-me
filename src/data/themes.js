@@ -8,16 +8,16 @@ module.exports = [
     subject: "funerals",
   },
   {
-    id: "letting-dogs-out",
-    subject: "letting dogs out",
+    id: "dogs",
+    subject: "dogs",
   },
   {
     id: "pier-pressure",
     subject: "Pier Pressure",
   },
   {
-    id: "spaniels",
-    subject: "spaniels",
+    id: "jerrys-aphasia",
+    subject: "Jerry’s aphasia",
   },
   {
     id: "russ-tattoo",

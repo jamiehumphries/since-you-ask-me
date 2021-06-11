@@ -75,7 +75,7 @@ $timeline-ball-size: $event-title-size + (2 * $timeline-border-width) + 0.1rem;
     }
   }
 
-  li {
+  > li {
     animation-name: fade-in;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -109,6 +109,12 @@ $timeline-ball-size: $event-title-size + (2 * $timeline-border-width) + 0.1rem;
 
     .episode-link {
       font-size: small;
+    }
+
+    > ul {
+      font-size: 0.9rem;
+      color: $theme-color;
+      list-style-type: square;
     }
   }
 }
