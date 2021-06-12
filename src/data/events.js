@@ -135,7 +135,7 @@ const events = [
     episode: 1,
     scene: 9,
     year: 1990,
-    inYearSortIndex: 0,
+    inYearSortIndex: 1,
     location: "Long Buckby",
     description: `
       At [Vanessa](@vanessa-wilkinson)’s [funeral](#funerals), [Deborah](@deborah-wilkinson) leaves [Russ](@russ-golding)
@@ -266,7 +266,7 @@ const events = [
     location: "Bradford-on-Avon",
     description: `
       [Deborah](@deborah-wilkinson) and her grandmother, [Vanessa](@vanessa-wilkinson), are [people watching](#reading-people).
-      They speculate on the lives of passers-by, whom they variously nickname Big Coat, Sideburns, Earrings and Orange Shirt.
+      They speculate on the lives of passers-by, whom they variously [nickname](#feature-based-nicknames) Big Coat, Sideburns, Earrings and Orange Shirt.
 
       Although impressed with her grandmother’s skill, Deborah laments that the conclusions are never something more exciting,
       like the subjects being Russian spies.
@@ -340,8 +340,8 @@ const events = [
       He consoles himself and the others with hugs and his refrain of [“half a glass”](#half-a-glass).
 
       He apologises again for swearing at them.
-      However, they are able reassure him that his mild lingering [aphasia](#jerrys-aphasia) has actually saved him from doing so.
-      They comfort him by joking that “cockers” was at worst akin to “spaniels”, and agreeing that they had behaved like “complete spaniels”.
+      However, they are able reassure him that his lingering [aphasia](#jerrys-aphasia) has actually saved him from doing so.
+      They comfort him by joking that “cockers” was at worst akin to “spaniels”, and agreeing that they had indeed behaved like “complete spaniels”.
     `,
   },
   {
@@ -376,7 +376,7 @@ const events = [
       on the events of the day.
 
       Although he enjoyed the day, Jerry feels a tinge of melancholy.
-      His feelings were hurt by a [‘What would Dad say?’](#jerrys-sayings) round in a quiz that [Deborah](@deborah-wilkinson) had composed.
+      His feelings were unintentionally hurt by a [‘What would Dad say?’](#jerrys-sayings) round in a quiz that [Deborah](@deborah-wilkinson) had composed.
       He worries that the high scores in the round indicate that he has become a “predictable old fart”.
 
       Hilla comforts him by saying that, although they may know what he might say, they could never predict what he will do next.
@@ -469,7 +469,12 @@ const events = [
       Jerry’s original reason for visiting the shop was to purchase a rubber stamp that could replicate a mark that he shows on his hand.
       This mark is to prove that he has completed a cross-country run, a task which he wishes to avoid in future.
 
-      However, after speaking with Hilla, he suggests that he saves his money on the stamp and buys them both tickets to the pictures instead.
+      Hilla says that her father could make the stamp, but questions why he should help a British soldier.
+      When Jerry asks if this is because her father is still sore about losing the war, Hilla responds:
+      “No, [Solomon Goldfarb](@solomon-goldfarb) is [not sorry that Germany lost](#being-jewish) the [war](#war).”
+
+      After more back-and-forth with Hilla, Jerry comes to the suggestion that he should saves his money on the stamp
+      and buy them both tickets to the pictures instead.
     `,
   },
   {
@@ -524,6 +529,235 @@ const events = [
       Jerry asks if he can have one. Uncle Newt tells him that he can maybe have one for his birthday.
 
       They wish each other goodnight, to which Jerry adds: [“Don’t let the bedbugs bite.”](#jerrys-sayings)
+    `,
+  },
+  {
+    episode: 4,
+    scene: 1,
+    year: 1990,
+    inYearSortIndex: 0,
+    location: "Birmingham",
+    description: `
+      [Vanessa](@vanessa-wilkinson) is competing on a TV quiz show.
+
+      She gets in to an argument with the host over the answer to the question:
+
+      <span class="inset"><em>In the famous book, which traveller went around the world in 80 days?</em></span>
+
+      She contests that her answer (Michael Palin) was correct and that, in fact, the answer they were looking for (Phileas Fogg) was incorrect.
+      She argues this both on the grounds that Phileas Fogg was fictional, and that he actually took 81 days to go around the world in the novel.
+
+      Ultimately, the quiz-runners choose to agree with Vanessa.
+    `,
+  },
+  {
+    episode: 4,
+    scene: 2,
+    year: 1982,
+    inYearSortIndex: 0,
+    location: "Long Buckby",
+    description: `
+      [Walter](@walter-wilkinson) is watching a film.
+      After a long time passes without the characters saying anything, he asks his wife, [Vanessa](@vanessa-wilkinson), to help him.
+
+      Vanessa [describes the scenes for Walter](#walters-blindness).
+      She uses [nicknames](#feature-based-nicknames) for the characters, such as Buttons and Sheriff Combover.
+
+      Once the characters start speaking again, she leaves Walter to watch it alone.
+    `,
+  },
+  {
+    episode: 4,
+    scene: 3,
+    year: 1974,
+    inYearSortIndex: 0,
+    location: "Colchester",
+    description: `
+      Upon returning to her parked car, [Vanessa](@vanessa-wilkinson) is confronted by an angry woman.
+      The woman says that her garage has been blocked by Vanessa’s car.
+
+      Vanessa accepts her mistake and sincerely apologies, but the woman continues to rant at her.
+
+      Vanessa tries to give the woman a life lesson. She tells her that reacting in this way only serves to let the other person off the hook.
+      Rather than feeling bad, Vanessa now just wants to laugh.
+    `,
+  },
+  {
+    episode: 4,
+    scene: 4,
+    year: 1963,
+    inYearSortIndex: 0,
+    location: "Reading",
+    description: `
+      The Wilkinson family pull [Christmas crackers](#christmas-crackers) around the table, starting with
+      [Vanessa](@vanessa-wilkinson) and [Uncle Newt](@oswald-newt-nightingale).
+      Vanessa wins and immediately takes the hat from inside and rips it up.
+
+      She also gets a small plastic cowboy from the cracker, which she gives to her grandson, [Benji](@benji-wilkinson).
+      Benji is warned not to snatch by his mother, [Hilla](@hilla-wilkinson), who reminds him that [“Level 3”](#good-behaviour) behaviour is expected.
+
+      [Jerry](@jerry-wilkinson) says [“onwards and upwards”](#jerrys-sayings) and nominates [Deborah](@deborah-wilkinson) to pull the next cracker.
+
+      Deborah chooses to pull her cracker with her grandfather, [Walter](@walter-wilkinson).
+      Vanessa [indicates to Walter](#walters-blindness) that his cracker is on his side plate.
+      Deborah wins, but questions if she has to rip up her hat. She asks if that tradition comes from them being [a bit Jewish](#being-jewish).
+
+      Hilla tells her that lighting the candles is because they are a bit Jewish, but that the hat ripping comes from the Wilkinson side.
+      It transpires that the tradition dates back at least as far as Uncle Newt’s childhood.
+
+      Uncle Newt prepares to [tell the story](#stories) of why the family rip the hats, but he is interrupted by a kitchen timer.
+      Hilla bustles out of the room to fetch the [pudding](#pudding), enlisting help from [Myra](@myra-wilkinson).
+    `,
+  },
+  {
+    episode: 4,
+    scene: 5,
+    year: 1948,
+    inYearSortIndex: 0,
+    location: "Long Buckby",
+    description: `
+      [Vanessa](@vanessa-wilkinson) and [Walter](@walter-wilkinson) are saying goodbye to their son,
+      [Jerry](@jerry-wilkinson), as he prepares to take the train to boarding school.
+
+      Vanessa insists that Walter offers Jerry some fatherly words of wisdom. Walter tells Jerry an old trick of his –
+      when you are feeling sad, saying [“half a glass”](#half-a-glass) to yourself will set your face in a natural smile.
+    `,
+  },
+  {
+    episode: 4,
+    scene: 6,
+    year: 1942,
+    inYearSortIndex: 1,
+    location: "Grand Union Canal",
+    description: `
+      [Vanessa](@vanessa-wilkinson) and [Queenie](@queenie) prepare to sleep aboard their [narrowboat](#boats),
+      which they are crewing as part of the [war](#war) effort.
+
+      They debate whether or not to wash beforehand, knowing that they haven’t washed for some time.
+      Vanessa claims that it has got to the stage that she can pick out Queenie’s “note” from the other end of the boat.
+
+      Queenie asks what sort of note she means, but Vanessa points out that no possible answer to the question would not cause offence.
+      Queenie suggests that “violets” would be an acceptable answer and Vanessa scoffs at her friend’s optimism.
+
+      They resolve to wash.
+    `,
+  },
+  {
+    episode: 4,
+    scene: 7,
+    year: 1940,
+    inYearSortIndex: 0,
+    location: "Leeds",
+    description: `
+      [Vanessa](@vanessa-wilkinson) undergoes a medical examination to evaluate her fitness to serve the Ministry of Transport during the [war](#war).
+
+      When the doctor asks her to say “ninety-nine”, she tells him that this practice was actually the result of an injudicious direct translation
+      from “neun­und­neunzig”, which was the word used by German doctors.
+      She realises that she has now said “neun­und­neunzig” in the course of her lecture, and so the doctor does not need to instruct her further.
+
+      The doctor refuses to give Vanessa the results of the examination, since they must come from the Ministry.
+      To bypass this, Vanessa immediately requests a second examination as a private patient.
+    `,
+  },
+  {
+    episode: 4,
+    scene: 8,
+    year: 1939,
+    inYearSortIndex: 0,
+    location: "Spetwith",
+    description: `
+      [Vanessa](@vanessa-wilkinson) is speaking to members of her new sewing circle.
+      They offer their condolences on the death of her mother.
+
+      It transpires that there is some confusion in the group about who Vanessa’s mother is.
+
+      Vanessa tells them that her mother was [Susanna Noone](@susanna-noone), who died three years previous from a long illness.
+      The sewing circle members had instead been referring to [Gallie Nightingale](@gallie-nightingale),
+      who died only three <em>weeks</em> previous in a [bombing](#war).
+
+      The group are surprised by this revelation, given Vanessa’s [resemblance to Gallie](#vanessas-parentage).
+    `,
+  },
+  {
+    episode: 4,
+    scene: 9,
+    year: 1934,
+    inYearSortIndex: 0,
+    location: "Paris to Lyon",
+    description: `
+      [Vanessa](@vanessa-wilkinson) and [Walter](@walter-wilkinson) are on their honeymoon in France.
+
+      On a train journey to Lyon, Vanessa points out another traveller to Walter.
+      She presents a number of theories about him based on what she has [observed](#reading-people) in his appearance and behaviour.
+
+      They exchange some ideas about the man, until Walter proposes a wager –
+      whoever can tell the other most about the man after three minutes will win a piece of crystalised ginger.
+
+      After Vanessa accepts, Walter simply walks over to the man and introduces himself.
+      He invites the man back to their table and relays what he has learned about him to Vanessa.
+      He then eats the ginger.
+    `,
+  },
+  {
+    episode: 4,
+    scene: 10,
+    year: 1929,
+    inYearSortIndex: 0,
+    location: "Whitley Bay",
+    description: `
+      [Midnight & Noone](#midnight-and-noone) perform their song [<em>The Fellow with the Cello</em>](#the-fellow-with-the-cello).
+
+      [Gallie](@gallie-nightingale) sings the part of “the fellow on the cello”,
+      while [Susanna](@susanna-noone) sings as “Susanna on piano” (pronounced “pian-ah”).
+      The two characters are in love with each other, but both are under the impression that the other does not love them.
+
+      [Vanessa](@vanessa-wilkinson) is acting as stage manager for them.
+    `,
+  },
+  {
+    episode: 4,
+    scene: 11,
+    year: 1927,
+    inYearSortIndex: 0,
+    location: "Scarborough",
+    description: `
+      [Vanessa](@vanessa-wilkinson) speaks to the house musicians before a performance by [Midnight & Noone](#midnight-and-noone).
+
+      She tells them that the act do not have tab music and that Miss Midnight ([Gallie](@gallie-nightingale)’s stage name)
+      would walk off stage if tab music was played.
+
+      They protest and ask to speak to Vanessa’s mother, but [Susanna](@susanna-noone) shouts from the wings that they are just to deal with Vanessa.
+    `,
+  },
+  {
+    episode: 4,
+    scene: 12,
+    year: 1921,
+    inYearSortIndex: 0,
+    location: "Near Spetwith",
+    description: `
+      [Uncle Newt](@oswald-newt-nightingale) is walking his [dog](#dogs), Monty – named after old family friend [Montgomery James](@montgomery-james).
+
+      [Vanessa](@vanessa-wilkinson) approaches him and asks that he tell her a [story](#stories).
+      Uncle Newt replies that he does not know any stories.
+      Vanessa is incredulous, believing that all uncles should know stories.
+      Uncle Newt reminders her that he is not truly an uncle, but just poses as one to get free pipe racks at Christmas.
+
+      Instead, Vanessa tells Newt the story of Cinderella.
+      He repeatedly interrupts to question elements of the story, such as the priorities of the Fairy Godmother and the practicality of glass slippers.
+
+      When Vanessa has finished, she repeats her insistence that Uncle Newt should learn some stories.
+      He agrees to attend to the matter.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 1,
+    year: 1990,
+    inYearSortIndex: 1,
+    location: "Long Buckby",
+    description: `
+
     `,
   },
 

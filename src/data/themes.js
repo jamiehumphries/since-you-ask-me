@@ -1,7 +1,7 @@
 module.exports = [
   {
-    id: "good-behaviour",
-    subject: "good behaviour",
+    id: "being-jewish",
+    subject: "being Jewish",
   },
   {
     id: "boats",
@@ -16,8 +16,8 @@ module.exports = [
     subject: "COVID-19",
   },
   {
-    id: "pudding",
-    subject: "pudding",
+    id: "feature-based-nicknames",
+    subject: "feature-based nicknames",
   },
   {
     id: "dogs",
@@ -26,6 +26,10 @@ module.exports = [
   {
     id: "funerals",
     subject: "funerals",
+  },
+  {
+    id: "good-behaviour",
+    subject: "good behaviour",
   },
   {
     id: "kazoos",
@@ -60,6 +64,10 @@ module.exports = [
     subject: "poetry",
   },
   {
+    id: "pudding",
+    subject: "pudding",
+  },
+  {
     id: "reading-people",
     subject: "reading people",
   },
@@ -78,6 +86,14 @@ module.exports = [
   {
     id: "the-fellow-with-the-cello",
     subject: "<em>The Fellow with the Cello</em>",
+  },
+  {
+    id: "vanessas-parentage",
+    subject: "Vanessa’s parentage",
+  },
+  {
+    id: "walters-blindness",
+    subject: "Walter’s blindness",
   },
   {
     id: "war",
