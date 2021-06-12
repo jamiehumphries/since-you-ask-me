@@ -139,7 +139,7 @@ const events = [
     location: "Long Buckby",
     description: `
       At [Vanessa](@vanessa-wilkinson)’s [funeral](#funerals), [Deborah](@deborah-wilkinson) leaves [Russ](@russ-golding)
-      in the care of [Uncle Newt](@oswald-newt-nightingale) while she finds her father, [Jerry](@jerry-wilkinson), to prevent him from
+      in the care of [Uncle Newt](@oswald-newt-nightingale) while she finds her father to prevent him from
       doing a [poem](#poetry).
       Deborah leaves Russ with instructions to be [“Level 5 good”](#good-behaviour).
 
@@ -266,7 +266,7 @@ const events = [
     location: "Bradford-on-Avon",
     description: `
       [Deborah](@deborah-wilkinson) and her grandmother, [Vanessa](@vanessa-wilkinson), are [people watching](#reading-people).
-      They speculate on the lives of passers-by, whom they variously [nickname](#feature-based-nicknames) Big Coat, Sideburns, Earrings and Orange Shirt.
+      They speculate on the lives of passers-by, whom they variously [nickname](#nicknames) Big Coat, Sideburns, Earrings and Orange Shirt.
 
       Although impressed with her grandmother’s skill, Deborah laments that the conclusions are never something more exciting,
       like the subjects being Russian spies.
@@ -360,8 +360,10 @@ const events = [
       He praises Newt as a [teacher](#teaching), [storyteller](#stories) and friend, before concluding with the lines:
 
       <span class="inset">
-        <em>Well, since you asked me for a toast…</em><br>
-        <em>O Nightingale! O Uncle Newt!</em>
+        <em>
+          Well, since you asked me for a toast…<br>
+          O Nightingale! O Uncle Newt!
+        </em>
       </span>
     `,
   },
@@ -437,6 +439,8 @@ const events = [
       Jerry asks if she remembers any of the pair’s songs. She tells him about
       [<em>The Fellow with the Cello</em>](#the-fellow-with-the-cello) and [<em>Woof, Woof, Woof</em>](#woof-woof-woof),
       attempting a short rendition of each.
+
+      She tells Jerry that the joke behind <em>Woof, Woof, Woof</em> is that it is a nightingale doing the dog impressions.
     `,
   },
   {
@@ -473,8 +477,8 @@ const events = [
       When Jerry asks if this is because her father is still sore about losing the war, Hilla responds:
       “No, [Solomon Goldfarb](@solomon-goldfarb) is [not sorry that Germany lost](#being-jewish) the [war](#war).”
 
-      After more back-and-forth with Hilla, Jerry comes to the suggestion that he should saves his money on the stamp
-      and buy them both tickets to the pictures instead.
+      After more back-and-forth between the two, Jerry comes to the suggestion that he should save his money on the rubber stamp
+      and instead buy tickets to the pictures for Hilla and him.
     `,
   },
   {
@@ -542,7 +546,7 @@ const events = [
 
       She gets in to an argument with the host over the answer to the question:
 
-      <span class="inset"><em>In the famous book, which traveller went around the world in 80 days?</em></span>
+      <span class="inset">In the famous book, which traveller went around the world in 80 days?</span>
 
       She contests that her answer (Michael Palin) was correct and that, in fact, the answer they were looking for (Phileas Fogg) was incorrect.
       She argues this both on the grounds that Phileas Fogg was fictional, and that he actually took 81 days to go around the world in the novel.
@@ -561,7 +565,7 @@ const events = [
       After a long time passes without the characters saying anything, he asks his wife, [Vanessa](@vanessa-wilkinson), to help him.
 
       Vanessa [describes the scenes for Walter](#walters-blindness).
-      She uses [nicknames](#feature-based-nicknames) for the characters, such as Buttons and Sheriff Combover.
+      She uses [nicknames](#nicknames) for the characters, such as Buttons and Sheriff Combover.
 
       Once the characters start speaking again, she leaves Walter to watch it alone.
     `,
@@ -667,7 +671,7 @@ const events = [
     location: "Spetwith",
     description: `
       [Vanessa](@vanessa-wilkinson) is speaking to members of her new sewing circle.
-      They offer their condolences on the death of her mother.
+      They offer her their condolences on the death of her mother.
 
       It transpires that there is some confusion in the group about who Vanessa’s mother is.
 
@@ -741,7 +745,7 @@ const events = [
       [Vanessa](@vanessa-wilkinson) approaches him and asks that he tell her a [story](#stories).
       Uncle Newt replies that he does not know any stories.
       Vanessa is incredulous, believing that all uncles should know stories.
-      Uncle Newt reminders her that he is not truly an uncle, but just poses as one to get free pipe racks at Christmas.
+      Uncle Newt reminds her that he is not truly an uncle, but just poses as one to get free pipe racks at Christmas.
 
       Instead, Vanessa tells Newt the story of Cinderella.
       He repeatedly interrupts to question elements of the story, such as the priorities of the Fairy Godmother and the practicality of glass slippers.
@@ -756,6 +760,222 @@ const events = [
     year: 1990,
     inYearSortIndex: 1,
     location: "Long Buckby",
+    description: `
+      At [Vanessa](@vanessa-wilkinson)’s [funeral](#funerals), [Jerry](@jerry-wilkinson) is surprised to find that [Uncle Newt](@oswald-newt-nightingale)
+      is wearing the same [hat](#newts-top-hat) as he wore to Myra’s wedding. Newt remarks that it is an awfully reilient thing.
+
+      Jerry’s daughter has just spoken to him to ensure that he will not do a [poem](#poetry) at the funeral.
+      When Uncle Newt hears this, he suggests that Jerry does a poem for Newt’s own funeral, when the day comes.
+
+      Uncle Newt says that he would pay Jerry his fee in advance, except that ha’pennies are no longer produced.
+      He reacts with mock outrage when Jerry suggests that he pay him a whole penny instead.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 2,
+    year: 1975,
+    inYearSortIndex: 0,
+    location: "Hook Norton",
+    description: `
+      A stranger with a foreign accent approaches [Newt](@oswald-newt-nightingale) and addresses him as Mr. Nightingale.
+      Newt asks if he had [taught](#teaching) the man years ago.
+
+      The man tells him they have never met, but that he had always wanted to meet him.
+      He then recites this short [poem](#poetry):
+
+      <span class="inset">
+        <em>
+          I had a walrus as a pet.<br>
+          Why I bought it, I forget.<br>
+          I fed it kedgeree and rusks,<br>
+          And used best Blanco on his tusks.
+        </em>
+      </span>
+
+      From the style of the rhyme, Newt recognises it as something written by himself or [Jerry](@jerry-wilkinson).
+      He remarks that animals and kings were their speciality.
+
+      Newt is gratified to hear that the man had remembered the verse for all these years and that it had “worked”.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 3,
+    year: 1969,
+    inYearSortIndex: 0,
+    location: "Great Rollwright",
+    description: `
+      At 3:30am, [Newt](@oswald-newt-nightingale) is watching television in the common room of the school at which he [teaches](#teaching).
+      He is with two students from his Physics class and one other teacher.
+
+      They are watching coverage of the moon landing, which is due to take place within the next half hour,
+      when they are discovered by an irate senior teacher, Mrs. Mill.
+
+      Newt asks to speak to Mrs. Mill outside the room.
+      Once outside, she insists that they stop watching and asks Newt if he plans to defy her authority in front of the students.
+      He says that he would not do that, but he thought he might very quietly defy it out here.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 4,
+    year: 1951,
+    inYearSortIndex: 0,
+    location: "York to London",
+    description: `
+      [Newt](@oswald-newt-nightingale) tries to convince his father, [Patrick](@patrick-nightingale), of the merits of appearing on
+      [Desert Island Discs](#desert-island-discs) to promote a new book that he has written.
+
+      Patrick is very sceptical of the idea. His view is simply that the book is available for purchase and if people want to read it, they can do so.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 5,
+    year: 1944,
+    inYearSortIndex: 0,
+    location: "Spetwith",
+    description: `
+      [Jerry](@jerry-wilkinson) approaches [Uncle Newt](@oswald-newt-nightingale) with a new [poem](#poetry) for the ditty box.
+      It relies on a play on words about an aardvark having two eyes and two ‘A’s.
+
+      Newt deems the verse worthy of the standard ha’penny fee, but also offers some advice for improvement.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 6,
+    year: 1940,
+    inYearSortIndex: 1,
+    location: "Marylebone",
+    description: `
+      [Newt](@oswald-newt-nightingale) is approached by a [former student](#teaching) of his, [Spencer](@spencer), who is now working for the
+      Special Operations Executive (SOE) – a secretive [World War II](#war) organisation.
+
+      Spencer explains that the SOE communicates with field agents using “poem codes”.
+      The message sender and receipient encrypt their messages based on an agreed upon passage of text.
+      For security, this text must be carried in the agent’s head, but not be something well known generally.
+
+      The passages need to be intensely memorable, unpredictable and, ideally, consist of twenty-six words.
+
+      Spencer recalled the rhymes that Newt used to teach him in class as memory aids, and thought that Newt could help with this.
+      He tells him that suitable passages were in great demand.
+
+      Newt is amused and honoured by the idea that his nonsense [poems](#poetry) could help with the war effort.
+      He agrees to help and adds that he will also enlist the help of his nephew, [Jerry](@jerry-wilkinson).
+    `,
+  },
+  {
+    episode: 5,
+    scene: 7,
+    year: 1939,
+    inYearSortIndex: 0,
+    location: "Spetwith",
+    description: `
+      [Vanessa](@vanessa-wilkinson) is staying with [Uncle Newt](@oswald-newt-nightingale) during the [war](#war).
+      She returns home from her sewing circle and expresses her frustration at not being able to do something she considers more useful.
+
+      Newt tells her that, if she wants to go away to join a different wartime service, her son, [Jerry](@jerry-wilkinson) would be welcome
+      to stay with him.
+
+      They discuss work that Vanessa might be able to do, hoping to find something that fits with her desire for autonomy.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 8,
+    year: 1924,
+    inYearSortIndex: 0,
+    location: "York",
+    description: `
+      [Newt](@oswald-newt-nightingale) is [teaching](#teaching) his class about Plato and Aristotle.
+
+      He explains that Aristotle was wrong to claim that heavy things fall faster than lighter things.
+      He uses a short [poem](#poetry) to remind them of this:
+
+      <span class="inset">
+        <em>
+          Whether they’re large or whether they’re small,<br>
+          Has no effect on the rate which things fall.<br>
+          But whether you choose to accept this or not-le,<br>
+          Depends on your faith in that fool, Aristotle.
+        </em>
+      </span>
+
+      He asks one of his students, [Spencer](@spencer), who it was that proved Aristotle wrong in 1592.
+      Spencer, who had not been listening, incorrectly guesses Plato. The answer was Galileo.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 9,
+    year: 1911,
+    inYearSortIndex: 1,
+    location: "Leeds",
+    description: `
+      [Newt](@oswald-newt-nightingale) is filling in for [Gallie](@gallie-nightingale) at a
+      [Midnight & Noone](#midnight-and-noone) performance.
+
+      He and [Susanna](@susanna-noone) perform the original version of [<em>Woof, Woof, Woof</em>](#woof-woof-woof),
+      which tells the story of Albert Small.
+
+      Albert was a renowned bird impressionist as a child.
+      However, when his voice breaks, he can no longer reach the notes needed to imitate birds like the nightingale.
+      So that he can continue to perform, he changes to doing dog impressions instead.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 10,
+    year: 1911,
+    inYearSortIndex: 0,
+    location: "York",
+    description: `
+      [Gallie](@gallie-nightingale) phones [Newt](@oswald-newt-nightingale) to ask him to do her a [colossal favour](#colossal-favours)
+      by filling in for her at a [Midnight & Noone](#midnight-and-noone) performance in Leeds.
+      She tells him that he will need to play the cello, but will only have one small bit of singing in the [Albert Small song](#woof-woof-woof).
+
+      Despite Newt’s protests, Gallie insists that he must do this for her.
+      She tells him that he can borrow her clothes, but he will need to buy a [top hat](#newts-top-hat).
+      (Presumably this is because [his head would be too large](#newts-large-head) for her top hat.)
+
+      Newt is worried that the audience will be disappointed if they are expecting a male impersonator but get an actual man.
+      Gallie dismisses this by saying that they will just think he is frightfully good.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 11,
+    year: 1904,
+    inYearSortIndex: 0,
+    location: "Spetwith",
+    description: `
+      [Gallie](@gallie-nightingale) informs her parents, [Patrick](@patrick-nightingale) and [Lettie](@lettie-nightingale),
+      about the plans that she and [Susanna](@susanna-noone) have to tour the country as a musical act.
+
+      Her parents are hesitant, but are somewhat reassured when Gallie tells them that Susanna has recently married a [Captain Noone](@basil-noone)
+      and that he will be travelling with them.
+
+      Gallie’s brother, [Newt](@oswald-newt-nightingale), has been on the sidelines of the discussion.
+      When their parents withdraw to discuss the matter together, Newt asks Gallie more questions about Susanna’s supposed husband.
+
+      Newt deduces that [Captain Noone is a ruse](#vanessas-parentage).
+      He tells Gallie that the play on words with ‘no-one’ is not as subtle as she might think it is.
+
+      Gallie tells him that it is too late to change the name from Noone, not least because she and Susanna are planning to name their touring act
+      ‘[Midnight & Noone](#midnight-and-noone)’.
+
+      The two discuss Gallie’s new stage name of Midnight, agreeing that it is better suited than Nightingale given Gallie’s low voice.
+      This gives Newt an idea for [a song](#woof-woof-woof) in which Gallie would play the part of a man who impersonates birds.
+    `,
+  },
+  {
+    episode: 5,
+    scene: 12,
+    year: 1899,
+    inYearSortIndex: 0,
+    location: "Spetwith",
     description: `
 
     `,

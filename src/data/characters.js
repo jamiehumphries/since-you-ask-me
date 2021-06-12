@@ -12,6 +12,15 @@ module.exports = [
     ],
   },
   {
+    id: "basil-noone",
+    fullName: "Capt. Basil Noone",
+    shortName: "Basil",
+    pronouns: ["he", "him"],
+    knownAges: [],
+    death: null,
+    relationships: [],
+  },
+  {
     id: "benji-wilkinson",
     fullName: "Benji Wilkinson",
     shortName: "Benji",
@@ -74,6 +83,9 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [
+      { character: "lettie-nightingale", relationship: "mother" },
+      { character: "oswald-newt-nightingale", relationship: "brother" },
+      { character: "patrick-nightingale", relationship: "father" },
       { character: "susanna-noone", relationship: "partner" },
       { character: "vanessa-wilkinson", relationship: "daughter" },
     ],
@@ -118,6 +130,19 @@ module.exports = [
     ],
   },
   {
+    id: "lettie-nightingale",
+    fullName: "Lettie Nightingale",
+    shortName: "Lettie",
+    pronouns: ["she", "her"],
+    knownAges: [],
+    death: null,
+    relationships: [
+      { character: "gallie-nightingale", relationship: "daughter" },
+      { character: "patrick-nightingale", relationship: "partner" },
+      { character: "oswald-newt-nightingale", relationship: "son" },
+    ],
+  },
+  {
     id: "montgomery-james",
     fullName: "Montgomery James",
     shortName: "Montgomery",
@@ -157,10 +182,26 @@ module.exports = [
     relationships: [
       { character: "benji-wilkinson", relationship: "great-grandnephew" },
       { character: "deborah-wilkinson", relationship: "great-grandniece" },
+      { character: "gallie-nightingale", relationship: "sister" },
       { character: "jerry-wilkinson", relationship: "grandnephew" },
+      { character: "lettie-nightingale", relationship: "mother" },
       { character: "myra-wilkinson", relationship: "great-grandniece" },
+      { character: "patrick-nightingale", relationship: "father" },
       { character: "russ-golding", relationship: "great-great-grandnephew" },
       { character: "vanessa-wilkinson", relationship: "niece" },
+    ],
+  },
+  {
+    id: "patrick-nightingale",
+    fullName: "Patrick Nightingale",
+    shortName: "Patrick",
+    pronouns: ["he", "him"],
+    knownAges: [],
+    death: null,
+    relationships: [
+      { character: "gallie-nightingale", relationship: "daughter" },
+      { character: "lettie-nightingale", relationship: "partner" },
+      { character: "oswald-newt-nightingale", relationship: "son" },
     ],
   },
   {
@@ -205,6 +246,15 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [{ character: "hilla-wilkinson", relationship: "daughter" }],
+  },
+  {
+    id: "spencer",
+    fullName: "Spencer",
+    shortName: "Spencer",
+    pronouns: ["he", "him"],
+    knownAges: [],
+    death: null,
+    relationships: [],
   },
   {
     id: "susanna-noone",

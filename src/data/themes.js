@@ -12,12 +12,16 @@ module.exports = [
     subject: "Christmas crackers",
   },
   {
+    id: "colossal-favours",
+    subject: "colossal favours",
+  },
+  {
     id: "covid-19",
     subject: "COVID-19",
   },
   {
-    id: "feature-based-nicknames",
-    subject: "feature-based nicknames",
+    id: "desert-island-discs",
+    subject: "Desert Island Discs",
   },
   {
     id: "dogs",
@@ -45,11 +49,23 @@ module.exports = [
   },
   {
     id: "jerrys-sayings",
-    subject: "Jerry’s aphasia",
+    subject: "Jerry’s sayings",
   },
   {
     id: "midnight-and-noone",
     subject: "Midnight & Noone",
+  },
+  {
+    id: "newts-large-head",
+    subject: "Newt’s top hat",
+  },
+  {
+    id: "newts-top-hat",
+    subject: "Newt’s top hat",
+  },
+  {
+    id: "nicknames",
+    subject: "nicknames",
   },
   {
     id: "paeans-of-praise",
