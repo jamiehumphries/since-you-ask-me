@@ -84,11 +84,10 @@ module.exports = (env, isDev) => {
       return [];
     }
     const age = getAge(character, event);
-    const yearsOld = `${age} year${age !== 1 ? "s" : ""} old`;
     return [
       deathComparator === 0
-        ? `${character.shortName} was ${yearsOld} when ${character.pronouns[0]} died`
-        : `${character.shortName} is ${yearsOld} in this scene`,
+        ? `${character.shortName} was ${age} when ${character.pronouns[0]} died`
+        : `${character.shortName} is ${age} in this scene`,
     ];
   }
 
@@ -107,13 +106,26 @@ module.exports = (env, isDev) => {
       (a) => a.episode === event.episode && a.scene === event.scene
     );
     if (eventAge) {
-      return `${eventAge.age}`;
+      return formatYearsOld(eventAge.age, true);
     }
     const knownAge = character.knownAges[0];
     const eventAtKnownAge = events.find(
       (e) => e.episode === knownAge.episode && e.scene === knownAge.scene
     );
-    return `about ${event.year - eventAtKnownAge.year + knownAge.age}`;
+    return formatYearsOld(
+      event.year - eventAtKnownAge.year + knownAge.age,
+      false
+    );
+  }
+
+  function formatYearsOld(age, isPrecise) {
+    if (age <= 0) {
+      return "less than a year old";
+    } else if (age === 1) {
+      return `${isPrecise ? "" : "about "}a year old`;
+    } else {
+      return `${isPrecise ? "" : "about "}${age} years old`;
+    }
   }
 
   function getRelationshipInfo(character, event, sortChronologically) {
