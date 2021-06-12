@@ -6,7 +6,7 @@ const events = [
     inYearSortIndex: 1,
     location: "Online",
     description: `
-      During the [COVID-19 lockdown](#covid-19), [Deborah](@deborah-wilkinson) and [Jerry](@jerry-wilkinson)
+      During the [COVID-19 pandemic](#covid-19), [Deborah](@deborah-wilkinson) and [Jerry](@jerry-wilkinson)
       coordinate to virtually pull a [Christmas cracker](#christmas-crackers) on a family video call.
       They are helped in their attempt by [Toby](@toby) and [Alex](@alex), and lightly teased by [Russ](@russ-golding).
 
@@ -144,7 +144,7 @@ const events = [
       Deborah leaves Russ with instructions to be [“Level 5 good”](#good-behaviour).
 
       Russ learns Newt’s name, which leads to a discussion of amphibians and, in particular, why turtles are not amphibians.
-      Newt gives him a brief [scientific explanation](#science) of the difference between reptiles and turtles,
+      Newt gives him a brief [scientific explanation](#teaching) of the difference between reptiles and turtles,
       but Russ does not want to hear more.
 
       Instead, Russ asks Newt for a [story](#stories) about Teenage Mutant Hero Turtles.
@@ -305,6 +305,225 @@ const events = [
 
       Deborah wants a story about ghosts, while Myra wants a story about gardens.
       Uncle Newt compromises by telling them a story about a haunted garden.
+    `,
+  },
+  {
+    episode: 3,
+    scene: 1,
+    year: 2021,
+    inYearSortIndex: 0,
+    location: "Aylesbury",
+    description: `
+      [Jerry](@jerry-wilkinson) is checking in for his [COVID-19](#covid-19) vaccination.
+
+      He is extremely buoyant to be seeing people in the real world.
+      In his excitement, he repeatedly extends his arm to shake hands, despite reminders of the social distancing rules.
+      He can’t stop himself from giving verbose and eloquent answers to simple yes-no questions.
+    `,
+  },
+  {
+    episode: 3,
+    scene: 2,
+    year: 2008,
+    inYearSortIndex: 0,
+    location: "Reading",
+    description: `
+      [Myra](@myra-wilkinson), [Deborah](@deborah-wilkinson), [Benji](@benji-wilkinson) and [Russ](@russ-golding)
+      are helping [Jerry](@jerry-wilkinson) to sort out his things and clear space.
+
+      Jerry becomes unexpectedly upset when he realises that they have deflated his lilo.
+      In his shock, he shouts: “What have you done? Oh, you cockers!”
+
+      He quickly regains his composure and apologises to them all.
+      He explains that he was keeping the lilo blown up because his wife, [Hilla](@hilla-wilkinson), had been the one who inflated it before she died.
+
+      He consoles himself and the others with hugs and his refrain of [“half a glass”](#half-a-glass).
+
+      He apologises again for swearing at them.
+      However, they are able reassure him that his mild lingering [aphasia](#jerrys-aphasia) has actually saved him from doing so.
+      They comfort him by joking that “cockers” was at worst akin to “spaniels”, and agreeing that they had behaved like “complete spaniels”.
+    `,
+  },
+  {
+    episode: 3,
+    scene: 3,
+    year: 1991,
+    inYearSortIndex: 0,
+    location: "Hook Norton",
+    description: `
+      At [Uncle Newt](@oswald-newt-nightingale)’s [funeral](#funerals), [Jerry](@jerry-wilkinson) gives a eulogy
+      in the form of a [poem](#poetry) that he has composed about Newt.
+
+      In the poem, Jerry tells the audience of the years he spent living with Newt [during the war](#war).
+      It was there that Jerry first started writing rhymes, for which Newt would pay him a ha’penny each.
+
+      He praises Newt as a [teacher](#teaching), [storyteller](#stories) and friend, before concluding with the lines:
+
+      <span class="inset">
+        <em>Well, since you asked me for a toast…</em><br>
+        <em>O Nightingale! O Uncle Newt!</em>
+      </span>
+    `,
+  },
+  {
+    episode: 3,
+    scene: 4,
+    year: 1985,
+    inYearSortIndex: 0,
+    location: "Reading",
+    description: `
+      On the evening of [Jerry](@jerry-wilkinson)’s 50<sup>th</sup> birthday, he and his wife, [Hilla](@hilla-wilkinson), reflect
+      on the events of the day.
+
+      Although he enjoyed the day, Jerry feels a tinge of melancholy.
+      His feelings were hurt by a [‘What would Dad say?’](#jerrys-sayings) round in a quiz that [Deborah](@deborah-wilkinson) had composed.
+      He worries that the high scores in the round indicate that he has become a “predictable old fart”.
+
+      Hilla comforts him by saying that, although they may know what he might say, they could never predict what he will do next.
+      She cites, as an example, him training crows to fetch batteries.
+
+      Feeling better, Jerry bids her goodnight. As he does so, she intones “don’t let the bed bugs bite” along with him, but he protests
+      that that doesn’t count.
+    `,
+  },
+  {
+    episode: 3,
+    scene: 5,
+    year: 1969,
+    inYearSortIndex: 0,
+    location: "Soho",
+    description: `
+      In a meeting with the Soho Systems Sound Design, [Jerry](@jerry-wilkinson) performs a song that he written to be used in one of their ads.
+
+      The song is a variation of [<em>Woof, Woof, Woof</em>](#woof-woof-woof).
+      In this version, the nightingale visits Soho Systems Sound Design to achieve the low notes she needs for her dog impressions.
+
+      The company express some concern over copyright because of an illusion to <em>A Nightingale Sang in Berkeley Square</em> at the end of the song.
+      Hearing this, Jerry has to confess that the whole thing is based on an old [Midnight & Noone](#midnight-and-noone) song.
+    `,
+  },
+  {
+    episode: 3,
+    scene: 6,
+    year: 1966,
+    inYearSortIndex: 0,
+    location: "Reading",
+    description: `
+      Because of a need to finish some eggs they had, [Jerry](@jerry-wilkinson) suggests that they have pancakes.
+      [Hilla](@hilla-wilkinson) is reading a book and absently-mindedly agrees.
+
+      Before she realises what she has done, Jerry retrieves and blows a [kazoo](#kazoos) to initiate a family ritual.
+      Hilla tries to change her meal choice to omlette, but the children are already rushing in to the room and it is too late.
+
+      Jerry and the children play out a rehearsed chant in which he acts as The Keeper of the Cakes of Pan.
+      [Myra](@myra-wilkinson) is The Flour Sifter, [Benji](@benji-wilkinson) is The Egg Man and [Deborah](@deborah-wilkinson) is The Tosh Chronicler.
+
+      Hilla, still reading her book, doesn’t join in the chanting in her role as The Flipster.
+      Benji begins to protest, but Jerry (still in character) defends The Flipster’s right to silence.
+
+      Although she doesn’t join the chanting this time, Hilla does not want her lines removed from the ritual. She likes it sometimes.
+    `,
+  },
+  {
+    episode: 3,
+    scene: 7,
+    year: 1960,
+    inYearSortIndex: 0,
+    location: "Long Buckby",
+    description: `
+      [Jerry](@jerry-wilkinson) asks his mum, [Vanessa](@vanessa-wilkinson), if [Midnight & Noone](#midnight-and-noone)
+      ever made any records. She tells him that they had not.
+
+      Jerry asks if she remembers any of the pair’s songs. She tells him about
+      [<em>The Fellow with the Cello</em>](#the-fellow-with-the-cello) and [<em>Woof, Woof, Woof</em>](#woof-woof-woof),
+      attempting a short rendition of each.
+    `,
+  },
+  {
+    episode: 3,
+    scene: 8,
+    year: 1957,
+    inYearSortIndex: 0,
+    location: "Kentish Town",
+    description: `
+      [Hilla](@hilla-wilkinson) is surprised that baby [Debbie](@deborah-wilkinson) wants to be fed more.
+      [Jerry](@jerry-wilkinson) suggests that it’s because she is ready for her [pudding](#pudding).
+      However, Hilla is heard to ask “Well, don’t you want it?”, suggesting that Debbie ultimately doesn’t want her pudding.
+
+      The baby is making raspberry noises as Hilla deals with her, leading to Hilla requesting that she saves her
+      “the raspberries of impatience”.
+      This leads to Jerry composing an impromptu, fruit-themed, nonsense song on the piano.
+      Hilla helps him with the lyrics.
+    `,
+  },
+  {
+    episode: 3,
+    scene: 9,
+    year: 1954,
+    inYearSortIndex: 0,
+    location: "Badenhausen",
+    description: `
+      During his National Service with the British Army, [Jerry](@jerry-wilkinson) visits a shop near to where he is posted in Germany.
+      He meets [Hilla](@hilla-wilkinson), who is working in the shop.
+
+      Jerry’s original reason for visiting the shop was to purchase a rubber stamp that could replicate a mark that he shows on his hand.
+      This mark is to prove that he has completed a cross-country run, a task which he wishes to avoid in future.
+
+      However, after speaking with Hilla, he suggests that he saves his money on the stamp and buys them both tickets to the pictures instead.
+    `,
+  },
+  {
+    episode: 3,
+    scene: 10,
+    year: 1945,
+    inYearSortIndex: 0,
+    location: "Coventry",
+    description: `
+      [Jerry](@jerry-wilkinson) visits his mother, [Vanessa](@vanessa-wilkinson), in hospital.
+      She is wrapped in bandages. She tells Jerry that she sustained her injuries when she was hit by a bridge.
+
+      She tells Jerry that, once she is discharged from hospital, she will be returning home from [her service](#war)
+      on the [narrow boats](#boats).
+
+      Jerry is partly disappointed by this news. This means he will stop living with [Uncle Newt](@oswald-newt-nightingale),
+      who has been teaching him to write [poetry](#poetry).
+    `,
+  },
+  {
+    episode: 3,
+    scene: 11,
+    year: 1943,
+    inYearSortIndex: 1,
+    location: "Spetwith",
+    description: `
+      [Jerry](@jerry-wilkinson) is celebrating his “unofficial” birthday with [Uncle Newt](@oswald-newt-nightingale),
+      with whom he is living during the [war](#war).
+      His “official” birthday will be in December, when his parents are home on leave.
+
+      After first hearing Jerry’s latest [poem](#poetry), for which Jerry is paid his standard ha’penny,
+      Uncle Newt gives him his birthday presents.
+
+      Jerry opens a gift to find a [kazoo](#kazoos). He blows it, which cues Newt to deliver a “[paean of praise](#paeans-of-praise)”
+      that he has written for Jerry. The paean tells of Jerry’s accomplishments and good deeds while living with his uncle.
+
+      Unbeknownst to Jerry, his mother, [Vanessa](@vanessa-wilkinson), has taken leave from her service for the day, so that she can visit him.
+      She arrives in the room as Uncle Newt finishes his paean. She delivers the final word: “Surprise!”
+    `,
+  },
+  {
+    episode: 3,
+    scene: 12,
+    year: 1943,
+    inYearSortIndex: 0,
+    location: "Spetwith",
+    description: `
+      [Uncle Newt](@oswald-newt-nightingale) is telling [Jerry](@jerry-wilkinson) a bedtime [story](#stories).
+      The final line says that the villagers sang “[paean of praise](#paeans-of-praise)” to their returning hero.
+
+      When asked by Jerry, Uncle Newt explains that a paean is “a long [poem](#poetry) about how wonderful you are”.
+      Jerry asks if he can have one. Uncle Newt tells him that he can maybe have one for his birthday.
+
+      They wish each other goodnight, to which Jerry adds: [“Don’t let the bedbugs bite.”](#jerrys-sayings)
     `,
   },
 

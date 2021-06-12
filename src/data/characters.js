@@ -23,6 +23,7 @@ module.exports = [
       { character: "hilla-wilkinson", relationship: "mother" },
       { character: "jerry-wilkinson", relationship: "father" },
       { character: "myra-wilkinson", relationship: "sister" },
+      { character: "russ-golding", relationship: "nephew" },
     ],
   },
   {
@@ -72,6 +73,7 @@ module.exports = [
       { character: "deborah-wilkinson", relationship: "daughter" },
       { character: "jerry-wilkinson", relationship: "partner" },
       { character: "myra-wilkinson", relationship: "daughter" },
+      { character: "russ-golding", relationship: "grandson" },
     ],
   },
   {
@@ -79,7 +81,12 @@ module.exports = [
     fullName: "Jerry Wilkinson",
     shortName: "Jerry",
     pronouns: ["he", "him"],
-    knownAges: [],
+    knownAges: [
+      { episode: 3, scene: 1, age: 86 },
+      { episode: 3, scene: 4, age: 50 },
+      { episode: 3, scene: 11, age: 8 },
+      { episode: 3, scene: 12, age: 7 },
+    ],
     death: null,
     relationships: [
       { character: "benji-wilkinson", relationship: "son" },
@@ -108,6 +115,7 @@ module.exports = [
         character: "oswald-newt-nightingale",
         relationship: "great-granduncle",
       },
+      { character: "russ-golding", relationship: "nephew" },
     ],
   },
   {
@@ -115,8 +123,8 @@ module.exports = [
     fullName: "Oswald ‘Newt’ Nightingale",
     shortName: "Newt",
     pronouns: ["he", "him"],
-    knownAges: [],
-    death: null,
+    knownAges: [{ episode: 3, scene: 3, age: 99 }],
+    death: { year: 1991, inYearSortIndex: 0 },
     relationships: [
       { character: "deborah-wilkinson", relationship: "great-grandniece" },
       { character: "jerry-wilkinson", relationship: "grandnephew" },
@@ -137,8 +145,11 @@ module.exports = [
     death: null,
     relationships: [
       { character: "alex", relationship: "partner" },
+      { character: "benji-wilkinson", relationship: "uncle" },
       { character: "deborah-wilkinson", relationship: "mother" },
+      { character: "hilla-wilkinson", relationship: "grandmother" },
       { character: "jerry-wilkinson", relationship: "grandfather" },
+      { character: "myra-wilkinson", relationship: "aunt" },
       {
         character: "oswald-newt-nightingale",
         relationship: "great-great-granduncle",
@@ -167,7 +178,7 @@ module.exports = [
     shortName: "Vanessa",
     pronouns: ["she", "her"],
     knownAges: [],
-    death: { episode: 1, scene: 9 },
+    death: { year: 1990, inYearSortIndex: 0 },
     relationships: [
       { character: "deborah-wilkinson", relationship: "granddaughter" },
       { character: "jerry-wilkinson", relationship: "son" },
