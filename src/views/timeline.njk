@@ -42,7 +42,7 @@
   </header>
   <ol class="timeline">
     {% for event in events %}
-      <li style="animation-delay: {{ loop.index0 * 200 }}ms;">
+      <li style="animation-delay: {{ (loop.index0 if (loop.index0 < 5) else 5) * 200 }}ms;">
         <h2>
           {{ event.year }} – {{ event.location }}
         </h2>

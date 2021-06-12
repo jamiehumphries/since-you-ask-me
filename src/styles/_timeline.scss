@@ -75,6 +75,11 @@ $timeline-ball-size: $event-title-size + (2 * $timeline-border-width) + 0.1rem;
     }
   }
 
+  .inset {
+    display: block;
+    padding-left: 1rem;
+  }
+
   > li {
     animation-name: fade-in;
     animation-duration: 1s;
@@ -117,6 +122,7 @@ $timeline-ball-size: $event-title-size + (2 * $timeline-border-width) + 0.1rem;
       list-style-type: square;
       a {
         color: $theme-color;
+        text-decoration-color: $theme-color;
       }
     }
   }
