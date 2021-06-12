@@ -107,7 +107,7 @@ function handleSortQuery(req, res, next) {
 }
 
 function getEvents(predicate, sortChronologically) {
-  const events = data.events.filter(predicate);
+  const events = data.events.filter(predicate).filter((e) => e.episode > 0);
   return sortChronologically ? events.sort(chronologicalOrdering) : events;
 }
 
