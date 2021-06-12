@@ -28,11 +28,13 @@ module.exports = (env, isDev) => {
       .trim()
       .split("\n\n")
       .map((paragraph) =>
-        paragraph.replace(/\[([^\]]+)\]\(([@#][0-9a-z-]+)\)/g, (_, text, tag) =>
-          tag === activeTag
-            ? `<span class="active-tag">${text}</span>`
-            : `<a href="${getLink(tag, sortChronologically)}">${text}</a>`
-        )
+        paragraph
+          .trim()
+          .replace(/\[([^\]]+)\]\(([@#][0-9a-z-]+)\)/g, (_, text, tag) =>
+            tag === activeTag
+              ? `<span class="active-tag">${text}</span>`
+              : `<a href="${getLink(tag, sortChronologically)}">${text}</a>`
+          )
       );
   }
 
