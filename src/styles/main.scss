@@ -10,6 +10,10 @@ body {
   margin-top: 0;
 }
 
+.monospace {
+  font-family: "Courie Prime", monospace;
+}
+
 .sr-only {
   position: absolute !important; /* Outside the DOM flow */
   height: 1px;
