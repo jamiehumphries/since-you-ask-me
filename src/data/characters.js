@@ -45,11 +45,12 @@ module.exports = [
     fullName: "Cliff Golding",
     shortName: "Cliff",
     pronouns: ["he", "him"],
-    knownAges: [{ episode: 0, scene: 1, age: 0 }],
+    knownAges: [],
     death: null,
     relationships: [
       { character: "deborah-wilkinson", relationship: "partner" },
       { character: "russ-golding", relationship: "son" },
+      { character: "toby", relationship: "granddaughter" },
     ],
   },
   {
@@ -277,6 +278,7 @@ module.exports = [
     death: null,
     relationships: [
       { character: "alex", relationship: "father" },
+      { character: "cliff-golding", relationship: "grandfather" },
       { character: "deborah-wilkinson", relationship: "grandmother" },
       { character: "jerry-wilkinson", relationship: "great-grandfather" },
       { character: "russ-golding", relationship: "father" },

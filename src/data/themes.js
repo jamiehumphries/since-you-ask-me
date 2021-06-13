@@ -1,9 +1,5 @@
 module.exports = [
   {
-    id: "being-jewish",
-    subject: "being Jewish",
-  },
-  {
     id: "boats",
     subject: "boats",
   },
@@ -34,6 +30,10 @@ module.exports = [
   {
     id: "good-behaviour",
     subject: "good behaviour",
+  },
+  {
+    id: "jewish-lineage",
+    subject: "Jewish lineage",
   },
   {
     id: "kazoos",

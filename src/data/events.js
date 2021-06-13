@@ -475,7 +475,7 @@ const events = [
 
       Hilla says that her father could make the stamp, but questions why he should help a British soldier.
       When Jerry asks if this is because her father is still sore about losing the war, Hilla responds:
-      “No, [Solomon Goldfarb](@solomon-goldfarb) is [not sorry that Germany lost](#being-jewish) the [war](#war).”
+      “No, [Solomon Goldfarb](@solomon-goldfarb) is [not sorry that Germany lost](#jewish-lineage) the [war](#war).”
 
       After more back-and-forth between the two, Jerry comes to the suggestion that he should save his money on the rubber stamp
       and instead buy tickets to the pictures for Hilla and him.
@@ -606,7 +606,7 @@ const events = [
 
       Deborah chooses to pull her cracker with her grandfather, [Walter](@walter-wilkinson).
       Vanessa [indicates to Walter](#walters-blindness) that his cracker is on his side plate.
-      Deborah wins, but questions if she has to rip up her hat. She asks if that tradition comes from them being [a bit Jewish](#being-jewish).
+      Deborah wins, but questions if she has to rip up her hat. She asks if that tradition comes from them being [a bit Jewish](#jewish-lineage).
 
       Hilla tells her that lighting the candles is because they are a bit Jewish, but that the hat ripping comes from the Wilkinson side.
       It transpires that the tradition dates back at least as far as Uncle Newt’s childhood.
@@ -1003,16 +1003,228 @@ const events = [
       and that he has kindly consented to tell them one now.
     `,
   },
-
-  // Referenced events that are not the subject of sketches,
-  // but do provide dates for births or deaths.
   {
-    episode: 0,
+    episode: 6,
     scene: 1,
     year: 1951,
+    inYearSortIndex: 1,
+    location: "London",
+    description: `
+      [Patrick](@patrick-nightingale) appears as a reluctant guest on [Desert Island Discs](#desert-island-discs).
+      He is short and dismissive when asked questions and denies any interest in music.
+
+      His first choice of record is titled <em>Strangers on the Shore</em>, which he chose because it concerns the sea shore
+      as you might find on a desert island.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 2,
+    year: 2017,
     inYearSortIndex: 0,
-    location: "",
-    description: "Cliff’s birth",
+    location: "Hastings",
+    description: `
+      [Russ](@russ-golding) returns home from fishing with his dad, [Cliff](@cliff-golding).
+
+      His daughter, [Toby](@toby) is hostile to the idea of fishing and confronts him as he arrives in.
+      Russ explains that he doesn’t actually use a hook, so all he is really doing is “fish feeding”.
+
+      After Toby leaves, Russ and [Alex](@alex) talk more about Russ’ pretend fishing.
+      Apparently, Cliff doesn’t know that Russ deliberately doesn’t catch fish.
+      He just thinks that Russ is bad at fishing, which he enjoys teasing him about.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 3,
+    year: 1965,
+    inYearSortIndex: 0,
+    location: "Long Buckby",
+    description: `
+      By waiting silently in a room with him, [Deborah](@deborah-wilkinson) works out that her grandfather,
+      [Walter](@walter-wilkinson), is [blind](#walters-blindness).
+
+      He admits that he has been blind since the [war](#war), but never brings it up.
+      Deborah questions how he manages, to which Walter says that his wife, [Vanessa](@vanessa-wilkinson), is a great help to him.
+
+      As if to demonstrate, Vanessa enters the room at that moment. She says:
+
+      <span class="inset">
+        “Ah, Walter there you are. Oh and Deborah too, you look very cosy over there, dear, in that window seat.”
+      </span>
+
+      Vanessa uses indirect comments like this to help Walter place things in the room.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 4,
+    year: 1961,
+    inYearSortIndex: 0,
+    location: "Shepherd’s Bush",
+    description: `
+      [Jerry](@jerry-wilkinson) is auditioning a satirical song that he has composed about “comfortable” men.
+
+      When he finishes, the auditioner points out a major snag regarding the object of his satire –
+      the generation above him served in the [war](#war), so can’t be said to have never stood up for anything that mattered.
+
+      The auditioner does compliment Jerry’s ability to write lyrics that scan, but still sends him away.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 5,
+    year: 1978,
+    inYearSortIndex: 0,
+    location: "Long Buckby",
+    description: `
+      While sharing a drink, [Vanessa](@vanessa-wilkinson) asks [Uncle Newt](@oswald-newt-nightingale) questions about [her parentage](#vanessas-parentage)
+      that she has put off asking before despite doubts that she had.
+
+      Uncle Newt is able to tell her that [Susanna Noone](@susanna-noone) was indeed her mother, despite Vanessa’s resemblance to [Aunt Gallie](@gallie-nightingale).
+
+      He does go on to say that Gallie would have loved to have been Vanessa’s mother, and that really she was one of her two mothers in every meaningful sense.
+
+      When Vanessa asks what her father looked liked, Newt only says that he never met [Major Noone](@basil-noone).
+    `,
+  },
+  {
+    episode: 6,
+    scene: 6,
+    year: 1951,
+    inYearSortIndex: 2,
+    location: "London",
+    description: `
+      [Patrick](@patrick-nightingale)’s next choice for [Desert Island Discs](#desert-island-discs) is a sound effects track
+      depicting the sounds a desert island, which he says he wouldn’t play anyway.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 7,
+    year: 2021,
+    inYearSortIndex: 1,
+    location: "Near Hastings",
+    description: `
+      [Russ](@russ-golding), [Alex](@alex) and [Toby](@toby) are walking their dog, Oswald, when they see a group of magpies.
+      Toby counts through the <em>One for Sorrow</em> rhyme, but she only knows it up to four.
+
+      Alex recites a version of the rhyme that goes well beyond the traditional seven,
+      culminating in the revolution of the magpies and the beginning of the thousand year age of magpies.
+
+      With mock shame, Russ reveals to Tony that Alex used to be in a sketch group.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 8,
+    year: 1995,
+    inYearSortIndex: 0,
+    location: "Reading",
+    description: `
+      On [Jerry](@jerry-wilkinson)’s 60<sup>th</sup> birthday, [Deborah](@deborah-wilkinson) introduces him to give a speech.
+
+      Jerry is still suffering from [aphasia](#jerrys-aphasia), but he and the family choose to embrace it.
+      Deborah reminds the audience of how well everyone did on the [‘What would Jerry say next?’](#jerrys-sayings) round from his 50<sup>th</sup> birthday.
+      She jokes that Jerry has now truly turned the tables on that.
+
+      Jerry opens by saying “Gently, ladybird, here we come”.
+      Although the speech that follows is very confused and difficult to interpret, it is warmly received by the family.
+
+      When he is finished, Jerry raises a toast “To glassware!”, which may be his attempt to say [“Half a glass!”](#half-a-glass).
+    `,
+  },
+  {
+    episode: 6,
+    scene: 9,
+    year: 1941,
+    inYearSortIndex: 0,
+    location: "Grand Union Canal",
+    description: `
+      [Vanessa](@vanessa-wilkinson) and [Queenie](@queenie) in their [narrowboat](#boats) are stuck behind a horse drawn barge because the horse will not move.
+
+      The horse driver is indignant that there is nothing he can do to move the horse if it doesn’t want to move,
+      but Vanessa is able to get it moving by first blindfolding it.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 10,
+    year: 1915,
+    inYearSortIndex: 1,
+    location: "Crewe",
+    description: `
+      [Newt](@oswald-newt-nightingale) knocks on the door of a hotel room. [Susanna](@susanna-noone) opens the door and greets him by saying:
+      [“Mr. Noone, I presume.”](#vanessas-parentage)
+
+      Susanna thanks Newt for “filling in”. They exchange awkward, but affectionate, conversation as they mentally prepare themselves for what they came to do.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 11,
+    year: 1915,
+    inYearSortIndex: 0,
+    location: "York",
+    description: `
+      [Gallie](@gallie-nightingale) warns [Newt](@oswald-newt-nightingale) that she has a [“super colossal” favour](#colossal-favours) to ask him.
+
+      Through cryptic references to [Susanna](@susanna-noone)’s pretend husband [Basil Noone](@basil-noone), Gallie asks if Newt would [father a child
+      with Susanna](#vanessas-parentage), which Gallie and Susanna could raise together.
+
+      Newt is reluctant to do so and points out that there are other ways to achieve the same effect. At this point, Gallie begins to speak more plainly.
+      She particularly hoped that Newt would do this favour, so that the kid would be the closest possible thing to being her child.
+
+      This convinces Newt and they agree to the plan. He asks to be part of the child’s life in the role of an uncle.
+
+      Gallie begins to explain the practicalities of the arrangement by asking if Newt knows Crewe.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 12,
+    year: 1951,
+    inYearSortIndex: 3,
+    location: "London",
+    description: `
+      [Patrick](@patrick-nightingale)’s final choice for [Desert Island Discs](#desert-island-discs) is another record in his strict desert island theme.
+
+      He declines to choose a luxury to bring with him, but then surprises the host by choosing <em>The Tale of Mrs. Tiggy-Winkle</em> by Beatrix Potter
+      as his book.
+
+      When asked why, he simply states that it is his favourite with no further elaboration. The host sighs and thanks him.
+    `,
+  },
+  {
+    episode: 6,
+    scene: 13,
+    year: 1988,
+    inYearSortIndex: 0,
+    location: "Nottingham",
+    description: `
+      On the way to the reception of Myra’s wedding, [Uncle Newt](@oswald-newt-nightingale), [Vanessa](@vanessa-wilkinson), [Jerry](@jerry-wilkinson),
+      [Deborah](@deborah-wilkinson) and [Russ](@russ-golding) share a car.
+      They represent five generations of the family.
+
+      Deborah is surprised to hear Jerry ask if he should start his speech with a [poem](#poetry), since she had just assumed that he would.
+
+      Vanessa and Deborah swap theories about the marital status of the registrar at the service, based on [their observations](#reading-people) of biro marks and reading glasses.
+
+      As they travel, Russ starts to feel unwell. Uncle Newt offers [his top hat](#newts-top-hat), should it be needed.
+
+      In an attempt to distract Russ, they start to play a [storytelling game](#stories) by each saying one word at a time,
+      but this fizzles as Russ feels worse.
+
+      Instead, they try to think of a song that they all know which they could sing to Russ.
+      Uncle Newt is too elderly to know <em>Yellow Submarine</em> and Deborah is too young for <em>Knees Up Mother Brown</em>,
+      but there is one song which spans the generations of the family.
+
+      Jerry counts them in and they all sing [<em>Woof, Woof, Woof</em>](#woof-woof-woof) together.
+
+      Unfortunately, they cannot prevent the inevitable, and Deborah is forced to apologise to Uncle Newt.
+
+      Newt replies: “Oh, not at all my dear. It was a very old hat.”
+    `,
   },
 ];
 
