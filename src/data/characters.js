@@ -13,7 +13,7 @@ module.exports = [
   },
   {
     id: "basil-noone",
-    fullName: "Capt. Basil Noone",
+    fullName: "Basil Noone",
     shortName: "Basil",
     pronouns: ["he", "him"],
     knownAges: [],

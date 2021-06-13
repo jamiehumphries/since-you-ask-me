@@ -190,7 +190,8 @@ const events = [
     inYearSortIndex: 0,
     location: "Reading",
     description: `
-      [Deborah](@deborah-wilkinson) is visting her father, [Jerry](@jerry-wilkinson), who is suffering from [aphasia](#jerrys-aphasia).
+      [Deborah](@deborah-wilkinson) is visting her father, [Jerry](@jerry-wilkinson).
+      Jerry’s ability to express himself is affected by [aphasia](#jerrys-aphasia).
       Deborah is supportive in helping him to communicate, but can’t quite suppress a giggle when he says “backwards and forwards”
       instead of his usual [“onwards and upwards”](#jerrys-sayings).
 
@@ -1126,7 +1127,7 @@ const events = [
     description: `
       On [Jerry](@jerry-wilkinson)’s 60<sup>th</sup> birthday, [Deborah](@deborah-wilkinson) introduces him to give a speech.
 
-      Jerry is suffering from [aphasia](#jerrys-aphasia), but he and the family choose to embrace it.
+      Jerry’s ability to express himself is affected by [aphasia](#jerrys-aphasia), but he and the family choose to embrace it.
       Deborah reminds the audience of how well everyone did on the [‘What would Jerry say next?’](#jerrys-sayings) round from his 50<sup>th</sup> birthday.
       She jokes that Jerry has now truly turned the tables on that.
 
