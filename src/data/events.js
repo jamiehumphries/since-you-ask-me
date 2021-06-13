@@ -17,7 +17,7 @@ const events = [
 
       Instead of Christmas [pudding](#pudding), Deborah has half a scotch egg.
 
-      At one point during the call, Alex tells Toby to let their [dog](#dogs), Oswald, out.
+      At one point during the call, Alex [tells Toby to let their dog, Oswald, out](#dogs).
     `,
   },
   {
@@ -301,7 +301,7 @@ const events = [
     location: "Reading",
     description: `
       [Uncle Newt](@oswald-newt-nightingale) is babysitting [Myra](@myra-wilkinson) and [Deborah](@deborah-wilkinson).
-      As he is putting them to bed, they plead with him to tell them a bedtime [story](#stories).
+      As he is putting them to bed, they plead with him to tell them a [bedtime story](#stories).
 
       Deborah wants a story about ghosts, while Myra wants a story about gardens.
       Uncle Newt compromises by telling them a story about a haunted garden.
@@ -395,10 +395,10 @@ const events = [
     inYearSortIndex: 0,
     location: "Soho",
     description: `
-      In a meeting with the Soho Systems Sound Design, [Jerry](@jerry-wilkinson) performs a song that he written to be used in one of their ads.
+      In a meeting with the Soho Systems Sound Design, [Jerry](@jerry-wilkinson) performs a song that he has written to be used in one of their ads.
 
       The song is a variation of [<em>Woof, Woof, Woof</em>](#woof-woof-woof).
-      In this version, the nightingale visits Soho Systems Sound Design to achieve the low notes she needs for her dog impressions.
+      In this version, a nightingale visits Soho Systems Sound Design to achieve the low notes she needs to do impressions of dogs.
 
       The company express some concern over copyright because of an illusion to <em>A Nightingale Sang in Berkeley Square</em> at the end of the song.
       Hearing this, Jerry has to confess that the whole thing is based on an old [Midnight & Noone](#midnight-and-noone) song.
@@ -512,7 +512,9 @@ const events = [
       After first hearing Jerry’s latest [poem](#poetry), for which Jerry is paid his standard ha’penny,
       Uncle Newt gives him his birthday presents.
 
-      Jerry opens a gift to find a [kazoo](#kazoos). He blows it, which cues Newt to deliver a “[paean of praise](#paeans-of-praise)”
+      Jerry opens a gift to find a [kazoo](#kazoos), which Uncle Newt admits that he had just found it in a drawer.
+
+      Uncle Newt encourages Jerry to blow the kazoo, which cues Newt to deliver a “[paean of praise](#paeans-of-praise)”
       that he has written for Jerry. The paean tells of Jerry’s accomplishments and good deeds while living with his uncle.
 
       Unbeknownst to Jerry, his mother, [Vanessa](@vanessa-wilkinson), has taken leave from her service for the day, so that she can visit him.
@@ -526,7 +528,7 @@ const events = [
     inYearSortIndex: 0,
     location: "Spetwith",
     description: `
-      [Uncle Newt](@oswald-newt-nightingale) is telling [Jerry](@jerry-wilkinson) a bedtime [story](#stories).
+      [Uncle Newt](@oswald-newt-nightingale) is telling [Jerry](@jerry-wilkinson) a [bedtime story](#stories).
       The final line says that the villagers sang “[paean of praise](#paeans-of-praise)” to their returning hero.
 
       When asked by Jerry, Uncle Newt explains that a paean is “a long [poem](#poetry) about how wonderful you are”.
@@ -740,7 +742,7 @@ const events = [
     inYearSortIndex: 0,
     location: "Near Spetwith",
     description: `
-      [Uncle Newt](@oswald-newt-nightingale) is walking his [dog](#dogs), Monty – named after old family friend [Montgomery James](@montgomery-james).
+      [Uncle Newt](@oswald-newt-nightingale) is walking his dog, Monty – named after old family friend [Monty James](@montgomery-james).
 
       [Vanessa](@vanessa-wilkinson) approaches him and asks that he tell her a [story](#stories).
       Uncle Newt replies that he does not know any stories.
@@ -963,7 +965,7 @@ const events = [
       Newt deduces that [Captain Noone is a ruse](#vanessas-parentage).
       He tells Gallie that the play on words with ‘no-one’ is not as subtle as she might think it is.
 
-      Gallie tells him that it is too late to change the name from Noone, not least because she and Susanna are planning to name their touring act
+      Gallie tells him that it is too late to change the name from Noone, not least because she and Susanna are planning to rename their act
       ‘[Midnight & Noone](#midnight-and-noone)’.
 
       The two discuss Gallie’s new stage name of Midnight, agreeing that it is better suited than Nightingale given Gallie’s low voice.
@@ -977,7 +979,28 @@ const events = [
     inYearSortIndex: 0,
     location: "Spetwith",
     description: `
+      The Nightingale family are celebrating Christmas with a family friend, [Monty James](@montgomery-james).
 
+      [Patrick](@patrick-nightingale) opens a [Christmas cracker](#christmas-crackers).
+      He reads the joke, but sets his hat aside without putting it on.
+
+      His son, [Oswald](@oswald-newt-nightingale), and daughter, [Gallie](@gallie-nightingale), both protest that he should wear the hat.
+      Even his wife, [Lettie](@lettie-nightingale), points out that Mr. James is wearing the hat that he won from his own cracker.
+      Patrick is unmoved and does not wear his hat.
+
+      [Oswald](@oswald-newt-nightingale) opens his cracker next and is excited to find a [kazoo](#kazoos) inside.
+      After requesting permission from his father, Oswald attempts to put on his own hat, but it rips as he is putting it on.
+
+      Gallie blames the rip on the [large size of Oswald’s head](#newts-large-head), but suggests that Oswald should take their father’s unused hat.
+      Patrick refutes the idea, saying that Oswald should have taken better care of his hat.
+
+      Seeing an opportunity to lighten the mood, Mr. James seizes Patrick’s hat and rips it.
+      The family laughs as Patrick then rips Mr. James’ hat and Gallie rips her mother’s one.
+
+      As the laughter dies down, Gallie [tells Oswald to let their dog, Toby, out](#dogs).
+
+      At the end of the meal, Patrick reveals to the children that Mr. James is known for his [ghost stories](#stories),
+      and that he has kindly consented to tell them one now.
     `,
   },
 
