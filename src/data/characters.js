@@ -116,6 +116,7 @@ module.exports = [
       { episode: 3, scene: 4, age: 50 },
       { episode: 3, scene: 11, age: 8 },
       { episode: 3, scene: 12, age: 7 },
+      { episode: 6, scene: 8, age: 60 },
     ],
     death: null,
     relationships: [
@@ -289,12 +290,12 @@ module.exports = [
     fullName: "Vanessa Wilkinson",
     shortName: "Vanessa",
     pronouns: ["she", "her"],
-    knownAges: [],
+    knownAges: [{ episode: 6, scene: 10, age: -1 }],
     death: { year: 1990, inYearSortIndex: 0 },
     relationships: [
       { character: "benji-wilkinson", relationship: "grandson" },
       { character: "deborah-wilkinson", relationship: "granddaughter" },
-      { character: "gallie-nightingale", relationship: "aunt" },
+      { character: "gallie-nightingale", relationship: "mother" },
       { character: "jerry-wilkinson", relationship: "son" },
       { character: "myra-wilkinson", relationship: "granddaughter" },
       { character: "oswald-newt-nightingale", relationship: "uncle" },

@@ -144,7 +144,7 @@ const events = [
       Deborah leaves Russ with instructions to be [“Level 5 good”](#good-behaviour).
 
       Russ learns Newt’s name, which leads to a discussion of amphibians and, in particular, why turtles are not amphibians.
-      Newt gives him a brief [scientific explanation](#teaching) of the difference between reptiles and turtles,
+      Newt gives him a brief [scientific explanation](#teaching) of the difference between reptiles and amphibians,
       but Russ does not want to hear more.
 
       Instead, Russ asks Newt for a [story](#stories) about Teenage Mutant Hero Turtles.
@@ -395,7 +395,7 @@ const events = [
     inYearSortIndex: 0,
     location: "Soho",
     description: `
-      In a meeting with the Soho Systems Sound Design, [Jerry](@jerry-wilkinson) performs a song that he has written to be used in one of their ads.
+      In a meeting with the Soho Systems Sound Design, [Jerry](@jerry-wilkinson) performs a song that he has written to be used in one of their adverts.
 
       The song is a variation of [<em>Woof, Woof, Woof</em>](#woof-woof-woof).
       In this version, a nightingale visits Soho Systems Sound Design to achieve the low notes she needs to do impressions of dogs.
@@ -412,7 +412,7 @@ const events = [
     location: "Reading",
     description: `
       Because of a need to finish some eggs they had, [Jerry](@jerry-wilkinson) suggests that they have pancakes.
-      [Hilla](@hilla-wilkinson) is reading a book and absently-mindedly agrees.
+      [Hilla](@hilla-wilkinson) is reading a book and absent-mindedly agrees.
 
       Before she realises what she has done, Jerry retrieves and blows a [kazoo](#kazoos) to initiate a family ritual.
       Hilla tries to change her meal choice to omlette, but the children are already rushing in to the room and it is too late.
@@ -654,6 +654,7 @@ const events = [
     year: 1940,
     inYearSortIndex: 0,
     location: "Leeds",
+    // TODO: Improve explanation.
     description: `
       [Vanessa](@vanessa-wilkinson) undergoes a medical examination to evaluate her fitness to serve the Ministry of Transport during the [war](#war).
 
@@ -764,7 +765,7 @@ const events = [
     location: "Long Buckby",
     description: `
       At [Vanessa](@vanessa-wilkinson)’s [funeral](#funerals), [Jerry](@jerry-wilkinson) is surprised to find that [Uncle Newt](@oswald-newt-nightingale)
-      is wearing the same [hat](#newts-top-hat) as he wore to Myra’s wedding. Newt remarks that it is an awfully reilient thing.
+      is wearing the same [hat](#newts-top-hat) as he wore to Myra’s wedding. Newt remarks that it is an awfully resilient thing.
 
       Jerry’s daughter has just spoken to him to ensure that he will not do a [poem](#poetry) at the funeral.
       When Uncle Newt hears this, he suggests that Jerry does a poem for Newt’s own funeral, when the day comes.
@@ -810,6 +811,7 @@ const events = [
     description: `
       At 3:30am, [Newt](@oswald-newt-nightingale) is watching television in the common room of the school at which he [teaches](#teaching).
       He is with two students from his Physics class and one other teacher.
+
 
       They are watching coverage of the moon landing, which is due to take place within the next half hour,
       when they are discovered by an irate senior teacher, Mrs. Mill.
@@ -1124,7 +1126,7 @@ const events = [
     description: `
       On [Jerry](@jerry-wilkinson)’s 60<sup>th</sup> birthday, [Deborah](@deborah-wilkinson) introduces him to give a speech.
 
-      Jerry is still suffering from [aphasia](#jerrys-aphasia), but he and the family choose to embrace it.
+      Jerry is suffering from [aphasia](#jerrys-aphasia), but he and the family choose to embrace it.
       Deborah reminds the audience of how well everyone did on the [‘What would Jerry say next?’](#jerrys-sayings) round from his 50<sup>th</sup> birthday.
       She jokes that Jerry has now truly turned the tables on that.
 
@@ -1186,6 +1188,7 @@ const events = [
     year: 1951,
     inYearSortIndex: 3,
     location: "London",
+    // TODO: Name the record.
     description: `
       [Patrick](@patrick-nightingale)’s final choice for [Desert Island Discs](#desert-island-discs) is another record in his strict desert island theme.
 
