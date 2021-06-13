@@ -291,7 +291,7 @@ module.exports = [
     shortName: "Vanessa",
     pronouns: ["she", "her"],
     knownAges: [{ episode: 6, scene: 10, age: -1 }],
-    death: { year: 1990, inYearSortIndex: 0 },
+    death: { year: 1990, inYearSortIndex: 1 },
     relationships: [
       { character: "benji-wilkinson", relationship: "grandson" },
       { character: "deborah-wilkinson", relationship: "granddaughter" },
