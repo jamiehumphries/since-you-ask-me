@@ -128,7 +128,7 @@ const events = [
       Craig then takes Russ’ guitar, but loses interest when Russ refuses to fight him for it, so he returns it.
 
       Russ, realising he will be late home, asks Craig for 20p to call his parents.
-      Although the sum is revised to 10p, Craig does give him money under the instruction that he tells no-one.
+      Although the sum is revised to 10p, Craig does give him the money under the instruction that he tells no-one.
     `,
   },
   {
@@ -140,7 +140,7 @@ const events = [
     description: `
       At [Vanessa](@vanessa-wilkinson)’s [funeral](#funerals), [Deborah](@deborah-wilkinson) leaves [Russ](@russ-golding)
       in the care of [Uncle Newt](@oswald-newt-nightingale) while she finds her father to prevent him from
-      doing a [poem](#poetry).
+      doing a poem.
       Deborah leaves Russ with instructions to be [“Level 5 good”](#good-behaviour).
 
       Russ learns Newt’s name, which leads to a discussion of amphibians and, in particular, why turtles are not amphibians.
@@ -341,7 +341,7 @@ const events = [
       He consoles himself and the others with hugs and his refrain of [“half a glass”](#half-a-glass).
 
       He apologises again for swearing at them.
-      However, they are able reassure him that his lingering [aphasia](#jerrys-aphasia) has actually saved him from doing so.
+      However, they are able to reassure him that his lingering [aphasia](#jerrys-aphasia) has actually saved him from doing so.
       They comfort him by joking that “cockers” was at worst akin to “spaniels”, and agreeing that they had indeed behaved like “complete spaniels”.
     `,
   },
@@ -356,7 +356,8 @@ const events = [
       in the form of a [poem](#poetry) that he has composed about Newt.
 
       In the poem, Jerry tells the audience of the years he spent living with Newt [during the war](#war).
-      It was there that Jerry first started writing rhymes, for which Newt would pay him a ha’penny each.
+      It was there that Jerry first started writing rhymes, for which Newt would pay him a ha’penny each
+      (on condition that they [scan](#lyrics-that-scan)).
 
       He praises Newt as a [teacher](#teaching), [storyteller](#stories) and friend, before concluding with the lines:
 
@@ -455,10 +456,11 @@ const events = [
       [Jerry](@jerry-wilkinson) suggests that it’s because she is ready for her [pudding](#pudding).
       However, Hilla is heard to ask “Well, don’t you want it?”, suggesting that Debbie ultimately doesn’t want her pudding.
 
-      The baby is making raspberry noises as Hilla deals with her, leading to Hilla requesting that she saves her
+      The baby is making raspberry noises as Hilla deals with her. Hilla requesting that Debbie saves her
       “the raspberries of impatience”.
       This leads to Jerry composing an impromptu, fruit-themed, nonsense song on the piano.
-      Hilla helps him with the lyrics.
+
+      Hilla helps him to find fruit names that correctly [scan](#lyrics-that-scan) within the tune.
     `,
   },
   {
@@ -490,10 +492,10 @@ const events = [
     location: "Coventry",
     description: `
       [Jerry](@jerry-wilkinson) visits his mother, [Vanessa](@vanessa-wilkinson), in hospital.
-      She is wrapped in bandages. She tells Jerry that she sustained her injuries when she was hit by a bridge.
+      She is wrapped in bandages. She informs Jerry that she sustained her injuries when she was hit by a bridge.
 
-      She tells Jerry that, once she is discharged from hospital, she will be returning home from [her service](#war)
-      on the [narrow boats](#boats).
+      Vanessa tells Jerry that, once she is discharged from hospital, she will be returning home from [her service](#war)
+      on the [narrowboat](#boats).
 
       Jerry is partly disappointed by this news. This means he will stop living with [Uncle Newt](@oswald-newt-nightingale),
       who has been teaching him to write [poetry](#poetry).
@@ -506,20 +508,20 @@ const events = [
     inYearSortIndex: 1,
     location: "Spetwith",
     description: `
-      [Jerry](@jerry-wilkinson) is celebrating his “unofficial” birthday with [Uncle Newt](@oswald-newt-nightingale),
+      [Jerry](@jerry-wilkinson) is celebrating his “unofficial” 8<sup>th</sup> birthday with [Uncle Newt](@oswald-newt-nightingale),
       with whom he is living during the [war](#war).
       His “official” birthday will be in December, when his parents are home on leave.
 
       After first hearing Jerry’s latest [poem](#poetry), for which Jerry is paid his standard ha’penny,
       Uncle Newt gives him his birthday presents.
 
-      Jerry opens a gift to find a [kazoo](#kazoos), which Uncle Newt admits that he had just found it in a drawer.
+      Jerry opens a gift to find a [kazoo](#kazoos), which Uncle Newt admits he had just found at the back of a drawer.
 
       Uncle Newt encourages Jerry to blow the kazoo, which cues Newt to deliver a “[paean of praise](#paeans-of-praise)”
       that he has written for Jerry. The paean tells of Jerry’s accomplishments and good deeds while living with his uncle.
 
-      Unbeknownst to Jerry, his mother, [Vanessa](@vanessa-wilkinson), has taken leave from her service for the day, so that she can visit him.
-      She arrives in the room as Uncle Newt finishes his paean. She delivers the final word: “Surprise!”
+      Unbeknownst to Jerry, his mother, [Vanessa](@vanessa-wilkinson), has taken leave from her war service, so that she can visit.
+      She arrives in the room as Uncle Newt is finishing his paean. She delivers the final word: “Surprise!”
     `,
   },
   {
@@ -530,7 +532,7 @@ const events = [
     location: "Spetwith",
     description: `
       [Uncle Newt](@oswald-newt-nightingale) is telling [Jerry](@jerry-wilkinson) a [bedtime story](#stories).
-      The final line says that the villagers sang “[paean of praise](#paeans-of-praise)” to their returning hero.
+      The final line says that the villagers sang “[paeans of praise](#paeans-of-praise)” to their returning hero.
 
       When asked by Jerry, Uncle Newt explains that a paean is “a long [poem](#poetry) about how wonderful you are”.
       Jerry asks if he can have one. Uncle Newt tells him that he can maybe have one for his birthday.
@@ -549,12 +551,14 @@ const events = [
 
       She gets in to an argument with the host over the answer to the question:
 
-      <span class="inset">In the famous book, which traveller went around the world in 80 days?</span>
+      <span class="inset">
+        In the famous book, which traveller went around the world in 80 days?
+      </span>
 
       She contests that her answer (Michael Palin) was correct and that, in fact, the answer they were looking for (Phileas Fogg) was incorrect.
       She argues this both on the grounds that Phileas Fogg was fictional, and that he actually took 81 days to go around the world in the novel.
 
-      Ultimately, the quiz-runners choose to agree with Vanessa.
+      Ultimately, the quiz runners choose to agree with Vanessa.
     `,
   },
   {
@@ -583,7 +587,7 @@ const events = [
       Upon returning to her parked car, [Vanessa](@vanessa-wilkinson) is confronted by an angry woman.
       The woman says that her garage has been blocked by Vanessa’s car.
 
-      Vanessa accepts her mistake and sincerely apologies, but the woman continues to rant at her.
+      Vanessa accepts her mistake and sincerely apologises, but the woman continues to rant at her.
 
       Vanessa tries to give the woman a life lesson. She tells her that reacting in this way only serves to let the other person off the hook.
       Rather than feeling bad, Vanessa now just wants to laugh.
@@ -655,13 +659,10 @@ const events = [
     year: 1940,
     inYearSortIndex: 0,
     location: "Leeds",
-    // TODO: Improve explanation.
     description: `
       [Vanessa](@vanessa-wilkinson) undergoes a medical examination to evaluate her fitness to serve the Ministry of Transport during the [war](#war).
 
-      When the doctor asks her to say “ninety-nine”, she tells him that this practice was actually the result of an injudicious direct translation
-      from “neun­und­neunzig”, which was the word used by German doctors.
-      She realises that she has now said “neun­und­neunzig” in the course of her lecture, and so the doctor does not need to instruct her further.
+      While the doctor is checking her for fluid on the lungs, Vanessa advises him on improvements to his diagnostic technique.
 
       The doctor refuses to give Vanessa the results of the examination, since they must come from the Ministry.
       To bypass this, Vanessa immediately requests a second examination as a private patient.
@@ -683,7 +684,7 @@ const events = [
       The sewing circle members had instead been referring to [Gally Nightingale](@gally-nightingale),
       who died only three <em>weeks</em> previous in a [bombing](#war).
 
-      The group are surprised by this revelation, given Vanessa’s [resemblance to Gally](#vanessas-parentage).
+      The group are surprised to learn her mother’s identity, given Vanessa’s [resemblance to Gally](#vanessas-parentage).
     `,
   },
   {
@@ -695,7 +696,7 @@ const events = [
     description: `
       [Vanessa](@vanessa-wilkinson) and [Walter](@walter-wilkinson) are on their honeymoon in France.
 
-      On a train journey to Lyon, Vanessa points out another traveller to Walter.
+      On a train journey to Lyon, Vanessa points out another traveller.
       She presents a number of theories about him based on what she has [observed](#reading-people) in his appearance and behaviour.
 
       They exchange some ideas about the man, until Walter proposes a wager –
@@ -769,9 +770,9 @@ const events = [
       is wearing the same [hat](#newts-top-hat) as he wore to Myra’s wedding. Newt remarks that it is an awfully resilient thing.
 
       Jerry’s daughter has just spoken to him to ensure that he will not do a [poem](#poetry) at the funeral.
-      When Uncle Newt hears this, he suggests that Jerry does a poem for Newt’s own funeral, when the day comes.
+      When Uncle Newt hears this, he suggests that Jerry should do one for Newt’s own funeral, when the day comes.
 
-      Uncle Newt says that he would pay Jerry his fee in advance, except that ha’pennies are no longer produced.
+      Uncle Newt says that he would pay Jerry his fee for the poem in advance, except that ha’pennies are no longer produced.
       He reacts with mock outrage when Jerry suggests that he pay him a whole penny instead.
     `,
   },
@@ -881,7 +882,7 @@ const events = [
       [Vanessa](@vanessa-wilkinson) is staying with [Uncle Newt](@oswald-newt-nightingale) during the [war](#war).
       She returns home from her sewing circle and expresses her frustration at not being able to do something she considers more useful.
 
-      Newt tells her that, if she wants to go away to join a different wartime service, her son, [Jerry](@jerry-wilkinson) would be welcome
+      Newt tells her that, if she wants to go away to join a different wartime service, her son, [Jerry](@jerry-wilkinson), would be welcome
       to stay with him.
 
       They discuss work that Vanessa might be able to do, hoping to find something that fits with her desire for autonomy.
@@ -942,8 +943,8 @@ const events = [
       She tells him that he will need to play the cello, but will only have one small bit of singing in the [Albert Small song](#woof-woof-woof).
 
       Despite Newt’s protests, Gally insists that he must do this for her.
-      She tells him that he can borrow her clothes, but he will need to buy a [top hat](#newts-top-hat).
-      (Presumably this is because [his head would be too large](#newts-large-head) for her top hat.)
+      Gally tells him that he can borrow her clothes, but he will need to buy himself a [top hat](#newts-top-hat).
+      (Presumably this is because [his head would be too large](#newts-large-head) for Gally’s top hat.)
 
       Newt is worried that the audience will be disappointed if they are expecting a male impersonator but get an actual man.
       Gally dismisses this by saying that they will just think he is frightfully good.
@@ -963,7 +964,7 @@ const events = [
       and that he will be travelling with them.
 
       Gally’s brother, [Newt](@oswald-newt-nightingale), has been on the sidelines of the discussion.
-      When their parents withdraw to discuss the matter together, Newt asks Gally more questions about Susanna’s supposed husband.
+      When their parents withdraw to discuss the matter, Newt asks Gally more questions about Susanna’s supposed husband.
 
       Newt deduces that [Captain Noone is a ruse](#vanessas-parentage).
       He tells Gally that the play on words with ‘no-one’ is not as subtle as she might think it is.
@@ -972,7 +973,7 @@ const events = [
       ‘[Midnight & Noone](#midnight-and-noone)’.
 
       The two discuss Gally’s new stage name of Midnight, agreeing that it is better suited than Nightingale given Gally’s low voice.
-      This gives Newt an idea for [a song](#woof-woof-woof) in which Gally would play the part of a man who impersonates birds.
+      This gives Newt [an idea for a song](#woof-woof-woof) in which Gally would play the part of a man who impersonates birds.
     `,
   },
   {
@@ -992,13 +993,15 @@ const events = [
       Patrick is unmoved and does not wear his hat.
 
       [Oswald](@oswald-newt-nightingale) opens his cracker next and is excited to find a [kazoo](#kazoos) inside.
-      After requesting permission from his father, Oswald attempts to put on his own hat, but it rips as he is putting it on.
+      After requesting permission from his father, Oswald attempts to put on his own hat, but it rips as he is doing so.
 
       Gally blames the rip on the [large size of Oswald’s head](#newts-large-head), but suggests that Oswald should take their father’s unused hat.
       Patrick refutes the idea, saying that Oswald should have taken better care of his hat.
 
       Seeing an opportunity to lighten the mood, Mr. James seizes Patrick’s hat and rips it.
       The family laughs as Patrick then rips Mr. James’ hat and Gally rips her mother’s one.
+
+      Patrick describes this round of hat ripping as “fun in its proper place”.
 
       As the laughter dies down, Gally [tells Oswald to let their dog, Toby, out](#dogs).
 
@@ -1053,10 +1056,10 @@ const events = [
       As if to demonstrate, Vanessa enters the room at that moment. She says:
 
       <span class="inset">
-        “Ah, Walter there you are. Oh and Deborah too, you look very cosy over there, dear, in that window seat.”
+        “Ah, Walter. There you are. Oh and Deborah too. You look very cosy over there, dear, in that window seat.”
       </span>
 
-      Vanessa uses indirect comments like this to help Walter place things in the room.
+      Vanessa uses indirect comments like this to help Walter place people and objects in the room.
     `,
   },
   {
@@ -1066,12 +1069,12 @@ const events = [
     inYearSortIndex: 0,
     location: "Shepherd’s Bush",
     description: `
-      [Jerry](@jerry-wilkinson) is auditioning a satirical song that he has composed about “comfortable” men.
+      [Jerry](@jerry-wilkinson) is auditioning a satirical song that he has composed about “comfortable men”.
 
       When he finishes, the auditioner points out a major snag regarding the object of his satire –
       the generation above him served in the [war](#war), so can’t be said to have never stood up for anything that mattered.
 
-      The auditioner does compliment Jerry’s ability to write lyrics that scan, but still sends him away.
+      The auditioner does compliment Jerry’s ability to write [lyrics that scan](#lyrics-that-scan), but still sends him away.
     `,
   },
   {
@@ -1081,12 +1084,13 @@ const events = [
     inYearSortIndex: 0,
     location: "Long Buckby",
     description: `
-      While sharing a drink, [Vanessa](@vanessa-wilkinson) asks [Uncle Newt](@oswald-newt-nightingale) questions about [her parentage](#vanessas-parentage)
-      that she has put off asking before despite doubts that she had.
+      While sharing a drink, [Vanessa](@vanessa-wilkinson) asks [Uncle Newt](@oswald-newt-nightingale) questions about [her parentage](#vanessas-parentage).
+      She had put off asking the questions before now, even though she had her doubts for a while.
 
       Uncle Newt is able to tell her that [Susanna Noone](@susanna-noone) was indeed her mother, despite Vanessa’s resemblance to [Aunt Gally](@gally-nightingale).
 
-      He does go on to say that Gally would have loved to have been Vanessa’s mother, and that really she was one of her two mothers in every meaningful sense.
+      He does go on to say that Gally would have loved to have been Vanessa’s mother, and that,
+      really, she was one of her two mothers in every meaningful sense.
 
       When Vanessa asks what her father looked liked, Newt only says that he never met [Major Noone](@basil-noone).
     `,
@@ -1099,7 +1103,7 @@ const events = [
     location: "London",
     description: `
       [Patrick](@patrick-nightingale)’s next choice for [Desert Island Discs](#desert-island-discs) is a sound effects track
-      depicting the sounds a desert island, which he says he wouldn’t play anyway.
+      depicting the sounds of a desert island, which he says he wouldn’t play anyway.
     `,
   },
   {
@@ -1144,7 +1148,8 @@ const events = [
     inYearSortIndex: 0,
     location: "Grand Union Canal",
     description: `
-      [Vanessa](@vanessa-wilkinson) and [Queenie](@queenie) in their [narrowboat](#boats) are stuck behind a horse drawn barge because the horse will not move.
+      [Vanessa](@vanessa-wilkinson) and [Queenie](@queenie) are aboard the [narrowboat](#boats) in which they are serving during the [war](#war).
+      They are stuck behind a horse drawn barge because the horse will not move.
 
       The horse driver is indignant that there is nothing he can do to move the horse if it doesn’t want to move,
       but Vanessa is able to get it moving by first blindfolding it.
@@ -1170,13 +1175,14 @@ const events = [
     inYearSortIndex: 0,
     location: "York",
     description: `
-      [Gally](@gally-nightingale) warns [Newt](@oswald-newt-nightingale) that she has a [“super colossal” favour](#colossal-favours) to ask him.
+      [Gally](@gally-nightingale) warns her brother, [Newt](@oswald-newt-nightingale), that she has a [“super colossal” favour](#colossal-favours) to ask him.
 
-      Through cryptic references to [Susanna](@susanna-noone)’s pretend husband [Basil Noone](@basil-noone), Gally asks if Newt would [father a child
-      with Susanna](#vanessas-parentage), which Gally and Susanna could raise together.
+      Through cryptic references to [Susanna](@susanna-noone)’s pretend husband [Basil Noone](@basil-noone),
+      Gally asks if Newt would [father a child with Susanna](#vanessas-parentage), which Gally and Susanna could then raise together.
 
-      Newt is reluctant to do so and points out that there are other ways to achieve the same effect. At this point, Gally begins to speak more plainly.
-      She particularly hoped that Newt would do this favour, so that the kid would be the closest possible thing to being her child.
+      Newt is very reluctant to do so and points out that there are other ways to achieve the same effect.
+      At this point, Gally begins to speak more plainly.
+      She had particularly hoped that Newt would do this for them, so that the kid would be the closest possible thing to being Gally’s own child.
 
       This convinces Newt and they agree to the plan. He asks to be part of the child’s life in the role of an uncle.
 
@@ -1189,9 +1195,9 @@ const events = [
     year: 1951,
     inYearSortIndex: 3,
     location: "London",
-    // TODO: Name the record.
     description: `
-      [Patrick](@patrick-nightingale)’s final choice for [Desert Island Discs](#desert-island-discs) is another record in his strict desert island theme.
+      [Patrick](@patrick-nightingale)’s final choice for [Desert Island Discs](#desert-island-discs) is <em>By The Sleepy Lagoon</em>,
+      once again following his literal desert island theme.
 
       He declines to choose a luxury to bring with him, but then surprises the host by choosing <em>The Tale of Mrs. Tiggy-Winkle</em> by Beatrix Potter
       as his book.
@@ -1216,10 +1222,10 @@ const events = [
 
       As they travel, Russ starts to feel unwell. Uncle Newt offers [his top hat](#newts-top-hat), should it be needed.
 
-      In an attempt to distract Russ, they start to play a [storytelling game](#stories) by each saying one word at a time,
-      but this fizzles as Russ feels worse.
+      In an attempt to distract Russ, they all start to play a [storytelling game](#stories) by each saying one word at a time,
+      but this fizzles out as Russ feels worse.
 
-      Instead, they try to think of a song that they all know which they could sing to Russ.
+      Next, they try to think of a song which they all know so that they could sing it to Russ.
       Uncle Newt is too elderly to know <em>Yellow Submarine</em> and Deborah is too young for <em>Knees Up Mother Brown</em>,
       but there is one song which spans the generations of the family.
 

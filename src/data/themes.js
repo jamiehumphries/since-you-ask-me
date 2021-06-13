@@ -52,6 +52,10 @@ module.exports = [
     subject: "Jerry’s sayings",
   },
   {
+    id: "lyrics-that-scan",
+    subject: "lyrics that scan",
+  },
+  {
     id: "midnight-and-noone",
     subject: "Midnight & Noone",
   },
