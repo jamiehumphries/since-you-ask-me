@@ -680,10 +680,10 @@ const events = [
       It transpires that there is some confusion in the group about who Vanessa’s mother is.
 
       Vanessa tells them that her mother was [Susanna Noone](@susanna-noone), who died three years previous from a long illness.
-      The sewing circle members had instead been referring to [Gallie Nightingale](@gallie-nightingale),
+      The sewing circle members had instead been referring to [Gally Nightingale](@gally-nightingale),
       who died only three <em>weeks</em> previous in a [bombing](#war).
 
-      The group are surprised by this revelation, given Vanessa’s [resemblance to Gallie](#vanessas-parentage).
+      The group are surprised by this revelation, given Vanessa’s [resemblance to Gally](#vanessas-parentage).
     `,
   },
   {
@@ -715,7 +715,7 @@ const events = [
     description: `
       [Midnight & Noone](#midnight-and-noone) perform their song [<em>The Fellow with the Cello</em>](#the-fellow-with-the-cello).
 
-      [Gallie](@gallie-nightingale) sings the part of “the fellow on the cello”,
+      [Gally](@gally-nightingale) sings the part of “the fellow on the cello”,
       while [Susanna](@susanna-noone) sings as “Susanna on piano” (pronounced “pian-ah”).
       The two characters are in love with each other, but both are under the impression that the other does not love them.
 
@@ -731,7 +731,7 @@ const events = [
     description: `
       [Vanessa](@vanessa-wilkinson) speaks to the house musicians before a performance by [Midnight & Noone](#midnight-and-noone).
 
-      She tells them that the act do not have tab music and that Miss Midnight ([Gallie](@gallie-nightingale)’s stage name)
+      She tells them that the act do not have tab music and that Miss Midnight ([Gally](@gally-nightingale)’s stage name)
       would walk off stage if tab music was played.
 
       They protest and ask to speak to Vanessa’s mother, but [Susanna](@susanna-noone) shouts from the wings that they are just to deal with Vanessa.
@@ -919,7 +919,7 @@ const events = [
     inYearSortIndex: 1,
     location: "Leeds",
     description: `
-      [Newt](@oswald-newt-nightingale) is filling in for [Gallie](@gallie-nightingale) at a
+      [Newt](@oswald-newt-nightingale) is filling in for [Gally](@gally-nightingale) at a
       [Midnight & Noone](#midnight-and-noone) performance.
 
       He and [Susanna](@susanna-noone) perform the original version of [<em>Woof, Woof, Woof</em>](#woof-woof-woof),
@@ -937,16 +937,16 @@ const events = [
     inYearSortIndex: 0,
     location: "York",
     description: `
-      [Gallie](@gallie-nightingale) phones [Newt](@oswald-newt-nightingale) to ask him to do her a [colossal favour](#colossal-favours)
+      [Gally](@gally-nightingale) phones [Newt](@oswald-newt-nightingale) to ask him to do her a [colossal favour](#colossal-favours)
       by filling in for her at a [Midnight & Noone](#midnight-and-noone) performance in Leeds.
       She tells him that he will need to play the cello, but will only have one small bit of singing in the [Albert Small song](#woof-woof-woof).
 
-      Despite Newt’s protests, Gallie insists that he must do this for her.
+      Despite Newt’s protests, Gally insists that he must do this for her.
       She tells him that he can borrow her clothes, but he will need to buy a [top hat](#newts-top-hat).
       (Presumably this is because [his head would be too large](#newts-large-head) for her top hat.)
 
       Newt is worried that the audience will be disappointed if they are expecting a male impersonator but get an actual man.
-      Gallie dismisses this by saying that they will just think he is frightfully good.
+      Gally dismisses this by saying that they will just think he is frightfully good.
     `,
   },
   {
@@ -956,23 +956,23 @@ const events = [
     inYearSortIndex: 0,
     location: "Spetwith",
     description: `
-      [Gallie](@gallie-nightingale) informs her parents, [Patrick](@patrick-nightingale) and [Lettie](@lettie-nightingale),
+      [Gally](@gally-nightingale) informs her parents, [Patrick](@patrick-nightingale) and [Lettie](@lettie-nightingale),
       about the plans that she and [Susanna](@susanna-noone) have to tour the country as a musical act.
 
-      Her parents are hesitant, but are somewhat reassured when Gallie tells them that Susanna has recently married a [Captain Noone](@basil-noone)
+      Her parents are hesitant, but are somewhat reassured when Gally tells them that Susanna has recently married a [Captain Noone](@basil-noone)
       and that he will be travelling with them.
 
-      Gallie’s brother, [Newt](@oswald-newt-nightingale), has been on the sidelines of the discussion.
-      When their parents withdraw to discuss the matter together, Newt asks Gallie more questions about Susanna’s supposed husband.
+      Gally’s brother, [Newt](@oswald-newt-nightingale), has been on the sidelines of the discussion.
+      When their parents withdraw to discuss the matter together, Newt asks Gally more questions about Susanna’s supposed husband.
 
       Newt deduces that [Captain Noone is a ruse](#vanessas-parentage).
-      He tells Gallie that the play on words with ‘no-one’ is not as subtle as she might think it is.
+      He tells Gally that the play on words with ‘no-one’ is not as subtle as she might think it is.
 
-      Gallie tells him that it is too late to change the name from Noone, not least because she and Susanna are planning to rename their act
+      Gally tells him that it is too late to change the name from Noone, not least because she and Susanna are planning to rename their act
       ‘[Midnight & Noone](#midnight-and-noone)’.
 
-      The two discuss Gallie’s new stage name of Midnight, agreeing that it is better suited than Nightingale given Gallie’s low voice.
-      This gives Newt an idea for [a song](#woof-woof-woof) in which Gallie would play the part of a man who impersonates birds.
+      The two discuss Gally’s new stage name of Midnight, agreeing that it is better suited than Nightingale given Gally’s low voice.
+      This gives Newt an idea for [a song](#woof-woof-woof) in which Gally would play the part of a man who impersonates birds.
     `,
   },
   {
@@ -987,20 +987,20 @@ const events = [
       [Patrick](@patrick-nightingale) opens a [Christmas cracker](#christmas-crackers).
       He reads the joke, but sets his hat aside without putting it on.
 
-      His son, [Oswald](@oswald-newt-nightingale), and daughter, [Gallie](@gallie-nightingale), both protest that he should wear the hat.
+      His son, [Oswald](@oswald-newt-nightingale), and daughter, [Gally](@gally-nightingale), both protest that he should wear the hat.
       Even his wife, [Lettie](@lettie-nightingale), points out that Mr. James is wearing the hat that he won from his own cracker.
       Patrick is unmoved and does not wear his hat.
 
       [Oswald](@oswald-newt-nightingale) opens his cracker next and is excited to find a [kazoo](#kazoos) inside.
       After requesting permission from his father, Oswald attempts to put on his own hat, but it rips as he is putting it on.
 
-      Gallie blames the rip on the [large size of Oswald’s head](#newts-large-head), but suggests that Oswald should take their father’s unused hat.
+      Gally blames the rip on the [large size of Oswald’s head](#newts-large-head), but suggests that Oswald should take their father’s unused hat.
       Patrick refutes the idea, saying that Oswald should have taken better care of his hat.
 
       Seeing an opportunity to lighten the mood, Mr. James seizes Patrick’s hat and rips it.
-      The family laughs as Patrick then rips Mr. James’ hat and Gallie rips her mother’s one.
+      The family laughs as Patrick then rips Mr. James’ hat and Gally rips her mother’s one.
 
-      As the laughter dies down, Gallie [tells Oswald to let their dog, Toby, out](#dogs).
+      As the laughter dies down, Gally [tells Oswald to let their dog, Toby, out](#dogs).
 
       At the end of the meal, Patrick reveals to the children that Mr. James is known for his [ghost stories](#stories),
       and that he has kindly consented to tell them one now.
@@ -1084,9 +1084,9 @@ const events = [
       While sharing a drink, [Vanessa](@vanessa-wilkinson) asks [Uncle Newt](@oswald-newt-nightingale) questions about [her parentage](#vanessas-parentage)
       that she has put off asking before despite doubts that she had.
 
-      Uncle Newt is able to tell her that [Susanna Noone](@susanna-noone) was indeed her mother, despite Vanessa’s resemblance to [Aunt Gallie](@gallie-nightingale).
+      Uncle Newt is able to tell her that [Susanna Noone](@susanna-noone) was indeed her mother, despite Vanessa’s resemblance to [Aunt Gally](@gally-nightingale).
 
-      He does go on to say that Gallie would have loved to have been Vanessa’s mother, and that really she was one of her two mothers in every meaningful sense.
+      He does go on to say that Gally would have loved to have been Vanessa’s mother, and that really she was one of her two mothers in every meaningful sense.
 
       When Vanessa asks what her father looked liked, Newt only says that he never met [Major Noone](@basil-noone).
     `,
@@ -1170,17 +1170,17 @@ const events = [
     inYearSortIndex: 0,
     location: "York",
     description: `
-      [Gallie](@gallie-nightingale) warns [Newt](@oswald-newt-nightingale) that she has a [“super colossal” favour](#colossal-favours) to ask him.
+      [Gally](@gally-nightingale) warns [Newt](@oswald-newt-nightingale) that she has a [“super colossal” favour](#colossal-favours) to ask him.
 
-      Through cryptic references to [Susanna](@susanna-noone)’s pretend husband [Basil Noone](@basil-noone), Gallie asks if Newt would [father a child
-      with Susanna](#vanessas-parentage), which Gallie and Susanna could raise together.
+      Through cryptic references to [Susanna](@susanna-noone)’s pretend husband [Basil Noone](@basil-noone), Gally asks if Newt would [father a child
+      with Susanna](#vanessas-parentage), which Gally and Susanna could raise together.
 
-      Newt is reluctant to do so and points out that there are other ways to achieve the same effect. At this point, Gallie begins to speak more plainly.
+      Newt is reluctant to do so and points out that there are other ways to achieve the same effect. At this point, Gally begins to speak more plainly.
       She particularly hoped that Newt would do this favour, so that the kid would be the closest possible thing to being her child.
 
       This convinces Newt and they agree to the plan. He asks to be part of the child’s life in the role of an uncle.
 
-      Gallie begins to explain the practicalities of the arrangement by asking if Newt knows Crewe.
+      Gally begins to explain the practicalities of the arrangement by asking if Newt knows Crewe.
     `,
   },
   {

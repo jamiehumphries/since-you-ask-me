@@ -77,9 +77,9 @@ module.exports = [
     ],
   },
   {
-    id: "gallie-nightingale",
-    fullName: "Gallie Nightingale",
-    shortName: "Gallie",
+    id: "gally-nightingale",
+    fullName: "Gally Nightingale",
+    shortName: "Gally",
     pronouns: ["she", "her"],
     knownAges: [],
     death: null,
@@ -139,7 +139,7 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [
-      { character: "gallie-nightingale", relationship: "daughter" },
+      { character: "gally-nightingale", relationship: "daughter" },
       { character: "patrick-nightingale", relationship: "partner" },
       { character: "oswald-newt-nightingale", relationship: "son" },
     ],
@@ -184,7 +184,7 @@ module.exports = [
     relationships: [
       { character: "benji-wilkinson", relationship: "great-grandnephew" },
       { character: "deborah-wilkinson", relationship: "great-grandniece" },
-      { character: "gallie-nightingale", relationship: "sister" },
+      { character: "gally-nightingale", relationship: "sister" },
       { character: "jerry-wilkinson", relationship: "grandnephew" },
       { character: "lettie-nightingale", relationship: "mother" },
       { character: "myra-wilkinson", relationship: "great-grandniece" },
@@ -201,7 +201,7 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [
-      { character: "gallie-nightingale", relationship: "daughter" },
+      { character: "gally-nightingale", relationship: "daughter" },
       { character: "lettie-nightingale", relationship: "partner" },
       { character: "oswald-newt-nightingale", relationship: "son" },
     ],
@@ -266,7 +266,7 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [
-      { character: "gallie-nightingale", relationship: "partner" },
+      { character: "gally-nightingale", relationship: "partner" },
       { character: "vanessa-wilkinson", relationship: "daughter" },
     ],
   },
@@ -295,7 +295,7 @@ module.exports = [
     relationships: [
       { character: "benji-wilkinson", relationship: "grandson" },
       { character: "deborah-wilkinson", relationship: "granddaughter" },
-      { character: "gallie-nightingale", relationship: "mother" },
+      { character: "gally-nightingale", relationship: "mother" },
       { character: "jerry-wilkinson", relationship: "son" },
       { character: "myra-wilkinson", relationship: "granddaughter" },
       { character: "oswald-newt-nightingale", relationship: "uncle" },
