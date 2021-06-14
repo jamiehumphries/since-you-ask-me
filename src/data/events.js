@@ -678,13 +678,17 @@ const events = [
       [Vanessa](@vanessa-wilkinson) is speaking to members of her new sewing circle.
       They offer her their condolences on the death of her mother.
 
-      It transpires that there is some confusion in the group about who Vanessa’s mother is.
+      It transpires that there is some confusion in the group about the identity of Vanessa’s mother.
 
-      Vanessa tells them that her mother was [Susanna Noone](@susanna-noone), who died three years previous from a long illness.
-      The sewing circle members had instead been referring to [Gally Nightingale](@gally-nightingale),
-      who died only three <em>weeks</em> previous in a [bombing](#war).
+      Vanessa tells them that her mother was [Susanna Noone](@susanna-noone), who had died three years previous from a long illness.
 
-      The group are surprised to learn her mother’s identity, given Vanessa’s [resemblance to Gally](#vanessas-parentage).
+      The sewing circle members had been under the impression that [Gally Nightingale](@gally-nightingale) was her mother,
+      who had died only three <em>weeks</em> previous in a [bombing](#war).
+
+      Vanessa explains that Aunt Gally, as she calls her, was her mother’s companion.
+      She tells them that, although Gally was like a second mother to her, they were not related.
+
+      The group are surprised to learn this, given [Vanessa’s resemblance to Gally](#vanessas-parentage).
     `,
   },
   {
@@ -938,7 +942,7 @@ const events = [
     inYearSortIndex: 0,
     location: "York",
     description: `
-      [Gally](@gally-nightingale) phones [Newt](@oswald-newt-nightingale) to ask him to do her a [colossal favour](#colossal-favours)
+      [Gally](@gally-nightingale) phones [Newt](@oswald-newt-nightingale) to ask him to do her a [“colossal” favour](#colossal-favours)
       by filling in for her at a [Midnight & Noone](#midnight-and-noone) performance in Leeds.
       She tells him that he will need to play the cello, but will only have one small bit of singing in the [Albert Small song](#woof-woof-woof).
 
@@ -1165,7 +1169,12 @@ const events = [
       [Newt](@oswald-newt-nightingale) knocks on the door of a hotel room. [Susanna](@susanna-noone) opens the door and greets him by saying:
       [“Mr. Noone, I presume.”](#vanessas-parentage)
 
-      Susanna thanks Newt for “filling in”. They exchange awkward, but affectionate, conversation as they mentally prepare themselves for what they came to do.
+      Susanna thanks Newt for “filling in” and goes on to say: “I’m terribly sorry about breaking your duck.”
+
+      Despite not usually drinking, Newt takes a swig from a hip flask that Susanna has brought, since she points out to him that it is
+      “rather a day for doing things you don’t do”.
+
+      They exchange awkward, but affectionate, conversation as they mentally prepare themselves for what they came to do.
     `,
   },
   {
@@ -1177,10 +1186,12 @@ const events = [
     description: `
       [Gally](@gally-nightingale) warns her brother, [Newt](@oswald-newt-nightingale), that she has a [“super colossal” favour](#colossal-favours) to ask him.
 
-      Through cryptic references to [Susanna](@susanna-noone)’s pretend husband [Basil Noone](@basil-noone),
+      Through cryptic references to [Susanna](@susanna-noone)’s pretend husband, [Major Noone](@basil-noone),
       Gally asks if Newt would [father a child with Susanna](#vanessas-parentage), which Gally and Susanna could then raise together.
 
-      Newt is very reluctant to do so and points out that there are other ways to achieve the same effect.
+      Newt is reluctant to do so. In his life generally, Newt has no interest in the required activity and never intends to try it.
+      He remarks that there are other ways of achieving the same effect.
+
       At this point, Gally begins to speak more plainly.
       She had particularly hoped that Newt would do this for them, so that the kid would be the closest possible thing to being Gally’s own child.
 
