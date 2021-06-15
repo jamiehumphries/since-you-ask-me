@@ -4,16 +4,20 @@ const data = require("./data");
 
 const router = express.Router();
 
-router.get("/", handleSortQuery, (req, res) => {
-  const topic = "what happened in";
-  const subject = "Series 9 of John Finnemore’s Souvenir Programme";
-  const events = getEvents(() => true, res.locals.sortChronologically);
-  res.render("timeline", { topic, subject, events, isHome: true });
-});
+router.get(
+  "/:order(starting-from-the-beginning)?",
+  handleSortOrder,
+  (req, res) => {
+    const topic = "what happened in";
+    const subject = "Series 9 of John Finnemore’s Souvenir Programme";
+    const events = getEvents(() => true, res.locals.sortChronologically);
+    res.render("timeline", { topic, subject, events, isHome: true });
+  }
+);
 
 router.get(
-  "/what-happened-in/episode-:number(\\d+)",
-  handleSortQuery,
+  "/what-happened-in/episode-:number(\\d+)/:order(starting-from-the-beginning)?",
+  handleSortOrder,
   (req, res, next) => {
     const { number } = req.params;
     const episode = parseInt(number);
@@ -33,8 +37,8 @@ router.get(
 );
 
 router.get(
-  "/what-happened-in/episode-:episodeNumber(\\d+)/scene-:sceneNumber(\\d+)",
-  handleSortQuery,
+  "/what-happened-in/episode-:episodeNumber(\\d+)/scene-:sceneNumber(\\d+)/:order(starting-from-the-beginning)?",
+  handleSortOrder,
   (req, res, next) => {
     const { episodeNumber, sceneNumber } = req.params;
     const episode = parseInt(episodeNumber);
@@ -55,8 +59,8 @@ router.get(
 );
 
 router.get(
-  "/for-the-life-history-of/:id([a-z-]+)",
-  handleSortQuery,
+  "/for-the-life-history-of/:id([a-z-]+)/:order(starting-from-the-beginning)?",
+  handleSortOrder,
   (req, res, next) => {
     const { id } = req.params;
     const character = data.characters.find((c) => c.id === id);
@@ -76,8 +80,8 @@ router.get(
 );
 
 router.get(
-  "/for-a-tale-of/:id([0-9a-z-]+)",
-  handleSortQuery,
+  "/for-a-tale-of/:id([0-9a-z-]+)/:order(starting-from-the-beginning)?",
+  handleSortOrder,
   (req, res, next) => {
     const { id } = req.params;
     const theme = data.themes.find((t) => t.id === id);
@@ -96,14 +100,10 @@ router.get(
   }
 );
 
-function handleSortQuery(req, res, next) {
-  if (req.originalUrl.endsWith("?in-broadcast-order")) {
-    res.redirect(req.path);
-  } else {
-    res.locals.sortChronologically =
-      req.query["starting-from-the-beginning"] !== undefined;
-    next();
-  }
+function handleSortOrder(req, res, next) {
+  res.locals.sortChronologically =
+    req.params.order === "starting-from-the-beginning";
+  next();
 }
 
 function getEvents(predicate, sortChronologically) {

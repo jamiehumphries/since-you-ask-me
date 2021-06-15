@@ -25,7 +25,7 @@
     {% if activeTag !== '~' %}
       {% if sortChronologically %}
         <div class="timeline-ordering-option">
-          <a href="?in-broadcast-order"><span class="sr-only">Switch to </span>Broadcast order</a>
+          <a href="{{ activeTag | toLink(false) }}"><span class="sr-only">Switch to </span>Broadcast order</a>
         </div>
         <div class="timeline-ordering-option">
           <span class="active"><span class="sr-only">Currently in </span>Chronological order</span>
@@ -35,7 +35,7 @@
           <span class="active"><span class="sr-only">Currently in </span>Broadcast order</span>
         </div>
         <div class="timeline-ordering-option">
-          <a href="?starting-from-the-beginning"><span class="sr-only">Switch to </span>Chronological order</a>
+          <a href="{{ activeTag | toLink(true) }}"><span class="sr-only">Switch to </span>Chronological order</a>
         </div>
       {% endif %}
     {% endif %}
@@ -50,12 +50,12 @@
           {% if activeTag === '+' + event.episode %}
             <span class="active-tag">Episode {{ event.episode }}</span>,
           {% else %}
-            <a href="/what-happened-in/episode-{{ event.episode }}{{ '?starting-from-the-beginning' if sortChronologically }}">Episode {{ event.episode }}</a>,
+            <a href="/what-happened-in/episode-{{ event.episode }}{{ '/starting-from-the-beginning' if sortChronologically }}">Episode {{ event.episode }}</a>,
           {% endif %}
           {% if activeTag === '~'%}
             <span class="active-tag">Scene {{ event.scene }}</span>
           {% else %}
-            <a href="/what-happened-in/episode-{{ event.episode }}/scene-{{ event.scene }}{{ '?starting-from-the-beginning' if sortChronologically }}">Scene {{ event.scene }}</a>
+            <a href="/what-happened-in/episode-{{ event.episode }}/scene-{{ event.scene }}{{ '/starting-from-the-beginning' if sortChronologically }}">Scene {{ event.scene }}</a>
           {% endif %}
         </div>
         {{ event | toTimeline(activeTag, sortChronologically) }}

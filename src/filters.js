@@ -33,32 +33,40 @@ module.exports = (env, isDev) => {
           .replace(/\[([^\]]+)\]\(([@#][0-9a-z-]+)\)/g, (_, text, tag) =>
             tag === activeTag
               ? `<span class="active-tag">${text}</span>`
-              : `<a href="${getLink(tag, sortChronologically)}">${text}</a>`
+              : `<a href="${toLink(tag, sortChronologically)}">${text}</a>`
           )
       );
   }
 
-  function getLink(tag, sortChronologically) {
+  function toLink(tag, sortChronologically) {
+    if (!tag) {
+      return sortChronologically ? "/starting-from-the-beginning" : "/";
+    }
+    let path = getPath(tag);
+    if (sortChronologically) {
+      path += "/starting-from-the-beginning";
+    }
+    return path;
+  }
+
+  function getPath(tag) {
     const tagType = tag[0];
     const tagId = tag.substring(1);
-    let path;
     if (tagType === "@") {
-      path = `/for-the-life-history-of/${tagId}`;
       if (isDev && !characters.find((c) => c.id === tagId)) {
         throw new Error(`Unmapped character: ${tag}`);
       }
+      return `/for-the-life-history-of/${tagId}`;
     } else if (tagType === "#") {
-      path = `/for-a-tale-of/${tagId}`;
       if (isDev && !themes.find((t) => t.id === tagId)) {
         throw new Error(`Unmapped theme: ${tag}`);
       }
+      return `/for-a-tale-of/${tagId}`;
+    } else if (tagType === "+") {
+      return `/what-happened-in/episode-${tagId}`;
     } else {
       throw new Error(`Unexpected tag: ${tag}`);
     }
-    if (sortChronologically) {
-      path += "?starting-from-the-beginning";
-    }
-    return path;
   }
 
   function getAdditionalInfo(event, tag, sortChronologically) {
@@ -140,13 +148,14 @@ module.exports = (env, isDev) => {
       const characterPossessive = `${character.shortName}’${
         character.shortName.endsWith("s") ? "" : "s"
       }`;
-      const relationLink = getLink(`@${relation.id}`, sortChronologically);
+      const relationLink = toLink(`@${relation.id}`, sortChronologically);
       return `<a href="${relationLink}">${relation.shortName}</a> is ${characterPossessive} ${r.relationship}`;
     });
   }
 
   return {
     pageTitle,
+    toLink,
     toTimeline,
   };
 };
