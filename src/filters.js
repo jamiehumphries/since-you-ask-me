@@ -3,6 +3,14 @@ const { characters, events, themes } = require("./data");
 module.exports = (env, isDev) => {
   const safe = env.getFilter("safe");
 
+  function stableRandom(choices, seed) {
+    const seedNumber = seed
+      .toString()
+      .split("")
+      .reduce((sum, char) => sum + char.charCodeAt(0), 0);
+    return choices[seedNumber % choices.length];
+  }
+
   function pageTitle(subject) {
     return subject
       .replace(/<\/?em>/g, "")
@@ -154,6 +162,7 @@ module.exports = (env, isDev) => {
   }
 
   return {
+    stableRandom,
     pageTitle,
     toLink,
     toTimeline,

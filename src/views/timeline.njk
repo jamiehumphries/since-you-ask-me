@@ -19,8 +19,12 @@
     <span class="subject">{{ subject | safe }}</span>…
   {% endcall %}
   <p class="i-believe-text">
-    I believe I do have a timeline of events that you might find {{ synonyms | random }}.
+    I believe I do have a timeline of events that you might find <span id="synonym">{{ synonyms | stableRandom(subject) }}</span>.
   </p>
+  <script>
+    var synonyms = {{ synonyms | dump | safe }}
+    document.getElementById("synonym").innerText = synonyms[Math.floor(Math.random()*synonyms.length)]
+  </script>
   <header class="timeline-ordering">
     {% if activeTag !== '~' %}
       {% if sortChronologically %}
