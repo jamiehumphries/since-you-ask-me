@@ -10,6 +10,11 @@ module.exports = [
       { character: "russ-golding", relationship: "partner" },
       { character: "toby", relationship: "daughter" },
     ],
+    unmappedRelationships: [
+      "cliff-golding",
+      "deborah-wilkinson",
+      "jerry-wilkinson",
+    ],
   },
   {
     id: "basil-noone",
@@ -19,6 +24,14 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [],
+    unmappedRelationships: [
+      "gally-nightingale",
+      "lettie-nightingale",
+      "oswald-newt-nightingale",
+      "patrick-nightingale",
+      "susanna-noone",
+      "vanessa-wilkinson",
+    ],
   },
   {
     id: "benji-wilkinson",
@@ -36,9 +49,11 @@ module.exports = [
         character: "oswald-newt-nightingale",
         relationship: "great-granduncle",
       },
+      { character: "russ-golding", relationship: "nephew" },
       { character: "vanessa-wilkinson", relationship: "grandmother" },
       { character: "walter-wilkinson", relationship: "grandfather" },
     ],
+    unmappedRelationships: [],
   },
   {
     id: "cliff-golding",
@@ -52,6 +67,7 @@ module.exports = [
       { character: "russ-golding", relationship: "son" },
       { character: "toby", relationship: "granddaughter" },
     ],
+    unmappedRelationships: ["alex", "hilla-wilkinson", "jerry-wilkinson"],
   },
   {
     id: "deborah-wilkinson",
@@ -75,6 +91,7 @@ module.exports = [
       { character: "vanessa-wilkinson", relationship: "grandmother" },
       { character: "walter-wilkinson", relationship: "grandfather" },
     ],
+    unmappedRelationships: ["alex"],
   },
   {
     id: "gally-nightingale",
@@ -90,6 +107,7 @@ module.exports = [
       { character: "susanna-noone", relationship: "partner" },
       { character: "vanessa-wilkinson", relationship: "daughter" },
     ],
+    unmappedRelationships: ["basil-noone", "montgomery-james"],
   },
   {
     id: "hilla-wilkinson",
@@ -104,6 +122,13 @@ module.exports = [
       { character: "jerry-wilkinson", relationship: "partner" },
       { character: "myra-wilkinson", relationship: "daughter" },
       { character: "russ-golding", relationship: "grandson" },
+      { character: "solomon-goldfarb", relationship: "father" },
+    ],
+    unmappedRelationships: [
+      "cliff-golding",
+      "oswald-newt-nightingale",
+      "vanessa-wilkinson",
+      "walter-wilkinson",
     ],
   },
   {
@@ -130,6 +155,12 @@ module.exports = [
       { character: "vanessa-wilkinson", relationship: "mother" },
       { character: "walter-wilkinson", relationship: "father" },
     ],
+    unmappedRelationships: [
+      "alex",
+      "cliff-golding",
+      "solomon-goldfarb",
+      "spencer",
+    ],
   },
   {
     id: "lettie-nightingale",
@@ -143,6 +174,7 @@ module.exports = [
       { character: "patrick-nightingale", relationship: "partner" },
       { character: "oswald-newt-nightingale", relationship: "son" },
     ],
+    unmappedRelationships: ["basil-noone", "montgomery-james", "susanna-noone"],
   },
   {
     id: "montgomery-james",
@@ -152,6 +184,13 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [],
+    unmappedRelationships: [
+      "gally-nightingale",
+      "lettie-nightingale",
+      "oswald-newt-nightingale",
+      "patrick-nightingale",
+      "vanessa-wilkinson",
+    ],
   },
   {
     id: "myra-wilkinson",
@@ -173,6 +212,7 @@ module.exports = [
       { character: "vanessa-wilkinson", relationship: "grandmother" },
       { character: "walter-wilkinson", relationship: "grandfather" },
     ],
+    unmappedRelationships: [],
   },
   {
     id: "oswald-newt-nightingale",
@@ -192,6 +232,14 @@ module.exports = [
       { character: "russ-golding", relationship: "great-great-grandnephew" },
       { character: "vanessa-wilkinson", relationship: "niece" },
     ],
+    unmappedRelationships: [
+      "basil-noone",
+      "hilla-wilkinson",
+      "montgomery-james",
+      "spencer",
+      "susanna-noone",
+      "walter-wilkinson",
+    ],
   },
   {
     id: "patrick-nightingale",
@@ -205,6 +253,7 @@ module.exports = [
       { character: "lettie-nightingale", relationship: "partner" },
       { character: "oswald-newt-nightingale", relationship: "son" },
     ],
+    unmappedRelationships: ["basil-noone", "montgomery-james", "susanna-noone"],
   },
   {
     id: "queenie",
@@ -214,6 +263,7 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [],
+    unmappedRelationships: ["vanessa-wilkinson"],
   },
   {
     id: "russ-golding",
@@ -228,6 +278,7 @@ module.exports = [
     relationships: [
       { character: "alex", relationship: "partner" },
       { character: "benji-wilkinson", relationship: "uncle" },
+      { character: "cliff-golding", relationship: "father" },
       { character: "deborah-wilkinson", relationship: "mother" },
       { character: "hilla-wilkinson", relationship: "grandmother" },
       { character: "jerry-wilkinson", relationship: "grandfather" },
@@ -239,6 +290,7 @@ module.exports = [
       { character: "toby", relationship: "daughter" },
       { character: "vanessa-wilkinson", relationship: "great-grandmother" },
     ],
+    unmappedRelationships: [],
   },
   {
     id: "solomon-goldfarb",
@@ -248,6 +300,7 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [{ character: "hilla-wilkinson", relationship: "daughter" }],
+    unmappedRelationships: ["jerry-wilkinson"],
   },
   {
     id: "spencer",
@@ -257,6 +310,7 @@ module.exports = [
     knownAges: [],
     death: null,
     relationships: [],
+    unmappedRelationships: ["jerry-wilkinson", "oswald-newt-nightingale"],
   },
   {
     id: "susanna-noone",
@@ -268,6 +322,12 @@ module.exports = [
     relationships: [
       { character: "gally-nightingale", relationship: "partner" },
       { character: "vanessa-wilkinson", relationship: "daughter" },
+    ],
+    unmappedRelationships: [
+      "basil-noone",
+      "lettie-nightingale",
+      "oswald-newt-nightingale",
+      "patrick-nightingale",
     ],
   },
   {
@@ -284,6 +344,7 @@ module.exports = [
       { character: "jerry-wilkinson", relationship: "great-grandfather" },
       { character: "russ-golding", relationship: "father" },
     ],
+    unmappedRelationships: [],
   },
   {
     id: "vanessa-wilkinson",
@@ -303,6 +364,12 @@ module.exports = [
       { character: "susanna-noone", relationship: "mother" },
       { character: "walter-wilkinson", relationship: "partner" },
     ],
+    unmappedRelationships: [
+      "basil-noone",
+      "hilla-wilkinson",
+      "montgomery-james",
+      "queenie",
+    ],
   },
   {
     id: "walter-wilkinson",
@@ -318,5 +385,6 @@ module.exports = [
       { character: "myra-wilkinson", relationship: "granddaughter" },
       { character: "vanessa-wilkinson", relationship: "partner" },
     ],
+    unmappedRelationships: ["hilla-wilkinson", "oswald-newt-nightingale"],
   },
 ];
