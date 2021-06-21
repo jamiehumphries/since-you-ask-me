@@ -13,7 +13,7 @@ rimraf.sync(root);
 
 fs.mkdirSync(root);
 fs.writeFileSync(join(root, ".nojekyll"), "");
-fs.writeFileSync(join(root, "CNAME"), "test.since-you-ask.me");
+fs.writeFileSync(join(root, "CNAME"), "well.since-you-ask.me");
 
 const staticFiles = glob
   .sync("src/public/static/**/*", { nodir: true })
