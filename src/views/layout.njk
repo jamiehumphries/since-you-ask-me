@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta property="og:url" content="https://well.since-you-ask.me/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ 'Well, since you ask me…' if isHome else subject }}">
+    <meta property="og:title" content="{{ 'Well, since you ask me…' if isHome else (subject | pageTitle) }}">
     <meta property="og:description" content="{{ description }}">
     <meta name="twitter:card" content="summary">
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
