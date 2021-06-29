@@ -402,7 +402,7 @@ const events = [
       The song is a variation of [<em>Woof, Woof, Woof</em>](#woof-woof-woof).
       In this version, a nightingale visits Soho Systems Sound Design to achieve the low notes she needs to do impressions of dogs.
 
-      The company express some concern over copyright because of an illusion to <em>A Nightingale Sang in Berkeley Square</em> at the end of the song.
+      The company express some concern over copyright because of an allusion to <em>A Nightingale Sang in Berkeley Square</em> at the end of the song.
       Hearing this, Jerry has to confess that the whole thing is based on an old [Midnight & Noone](#midnight-and-noone) song.
     `,
   },
@@ -1123,7 +1123,7 @@ const events = [
       Alex recites a version of the rhyme that goes well beyond the traditional seven,
       culminating in the revolution of the magpies and the beginning of the thousand year age of magpies.
 
-      With mock shame, Russ reveals to Tony that Alex used to be in a sketch group.
+      With mock shame, Russ reveals to Toby that Alex used to be in a sketch group.
     `,
   },
   {
