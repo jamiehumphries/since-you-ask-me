@@ -190,7 +190,7 @@ const events = [
     inYearSortIndex: 0,
     location: "Reading",
     description: `
-      [Deborah](@deborah-wilkinson) is visting her father, [Jerry](@jerry-wilkinson).
+      [Deborah](@deborah-wilkinson) is visiting her father, [Jerry](@jerry-wilkinson).
       Jerry’s ability to express himself is affected by [aphasia](#jerrys-aphasia).
       Deborah is supportive in helping him to communicate, but can’t quite suppress a giggle when he says “backwards and forwards”
       instead of his usual [“onwards and upwards”](#jerrys-sayings).
@@ -278,9 +278,9 @@ const events = [
     scene: 9,
     year: 1967,
     inYearSortIndex: 0,
-    location: "Lemington Spa",
+    location: "Leamington Spa",
     description: `
-      The Wilkinson famliy – [Jerry](@jerry-wilkinson), [Hilla](@hilla-wilkinson), [Myra](@myra-wilkinson),
+      The Wilkinson family – [Jerry](@jerry-wilkinson), [Hilla](@hilla-wilkinson), [Myra](@myra-wilkinson),
       [Deborah](@deborah-wilkinson) and [Benji](@benji-wilkinson) – are meeting Jerry’s parents for dinner.
 
       Upon arriving at the restaurant, Jerry realises that it is a posher venue than they were expecting.
@@ -417,7 +417,7 @@ const events = [
       [Hilla](@hilla-wilkinson) is reading a book and absent-mindedly agrees.
 
       Before she realises what she has done, Jerry retrieves and blows a [kazoo](#kazoos) to initiate a family ritual.
-      Hilla tries to change her meal choice to omlette, but the children are already rushing in to the room and it is too late.
+      Hilla tries to change her meal choice to omelette, but the children are already rushing in to the room and it is too late.
 
       Jerry and the children play out a rehearsed chant in which he acts as The Keeper of the Cakes of Pan.
       [Myra](@myra-wilkinson) is The Flour Sifter, [Benji](@benji-wilkinson) is The Egg Man and [Deborah](@deborah-wilkinson) is The Tosh Chronicler.
@@ -864,7 +864,7 @@ const events = [
       Special Operations Executive (SOE) – a secretive [World War II](#war) organisation.
 
       Spencer explains that the SOE communicates with field agents using “poem codes”.
-      The message sender and receipient encrypt their messages based on an agreed upon passage of text.
+      The message sender and recipient encrypt their messages based on an agreed upon passage of text.
       For security, this text must be carried in the agent’s head, but not be something well known generally.
 
       The passages need to be intensely memorable, unpredictable and, ideally, consist of twenty-six words.

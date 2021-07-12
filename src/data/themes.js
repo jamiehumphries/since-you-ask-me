@@ -61,7 +61,7 @@ module.exports = [
   },
   {
     id: "newts-large-head",
-    subject: "Newt’s top hat",
+    subject: "Newt’s large head",
   },
   {
     id: "newts-top-hat",
