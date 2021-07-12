@@ -795,7 +795,7 @@ const events = [
 
       <span class="inset">
         <em>
-          I had a walrus as a pet.<br>
+          I had a walrus for a pet.<br>
           Why I bought it, I forget.<br>
           I fed it kedgeree and rusks,<br>
           And used best Blanco on his tusks.
