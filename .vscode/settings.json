@@ -9,6 +9,5 @@
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
-  "html.suggest.html5": true,
-  "prettier.documentSelectors": ["**/*.njk"]
+  "html.suggest.html5": true
 }
