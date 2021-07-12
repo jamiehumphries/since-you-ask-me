@@ -71,7 +71,7 @@ const events = [
       [Russ](@russ-golding) insists that they should do “the famous bit” and gives a short rendition of [<em>Woof, Woof, Woof</em>](#woof-woof-woof).
 
       After an initial stunned silence, the rest of the band start to laugh at Russ’ insistence that this is how the song goes.
-      Their hilarity grows as Russ sings in a high pitched voice and explains that it is the nightingale doing dog impressions.
+      Their hilarity grows as Russ sings in a high-pitched voice and explains that it is the nightingale doing dog impressions.
 
       The lead singer resolves that they are doing the song.
       He dismisses the rest of the band except for Russ, to whom he says: “You and me are writing a song, [Jawbone](#russ-tattoo).”
@@ -85,7 +85,7 @@ const events = [
     location: "Hastings",
     description: `
       [Russ](@russ-golding) asks a tattoo artist to give him the smallest possible [tattoo](#russ-tattoo) which is still recognisably an animal.
-      They decide on a crocodile, because it is thin but distinctive.
+      They decide on a crocodile because it is thin but distinctive.
 
       When asked, Russ admits that he is only getting the tattoo because of peer pressure from [his band](#pier-pressure).
       In fact, he tells her, that is literally the name of the band (although they spell it ‘Pier Pressure’ because of Hastings Pier).
@@ -148,7 +148,7 @@ const events = [
       but Russ does not want to hear more.
 
       Instead, Russ asks Newt for a [story](#stories) about Teenage Mutant Hero Turtles.
-      Having been informed that the turtles names are Michaelangelo, Raphael, Donatello and Leonardo,
+      Having been informed that the turtles names are Michelangelo, Raphael, Donatello and Leonardo,
       Newt tells Russ a story about turtles in Renaissance Florence.
     `,
   },
@@ -417,7 +417,7 @@ const events = [
       [Hilla](@hilla-wilkinson) is reading a book and absent-mindedly agrees.
 
       Before she realises what she has done, Jerry retrieves and blows a [kazoo](#kazoos) to initiate a family ritual.
-      Hilla tries to change her meal choice to omelette, but the children are already rushing in to the room and it is too late.
+      Hilla tries to change her meal choice to omelette, but the children are already rushing into the room and it is too late.
 
       Jerry and the children play out a rehearsed chant in which he acts as The Keeper of the Cakes of Pan.
       [Myra](@myra-wilkinson) is The Flour Sifter, [Benji](@benji-wilkinson) is The Egg Man and [Deborah](@deborah-wilkinson) is The Tosh Chronicler.
@@ -549,7 +549,7 @@ const events = [
     description: `
       [Vanessa](@vanessa-wilkinson) is competing on a TV quiz show.
 
-      She gets in to an argument with the host over the answer to the question:
+      She gets into an argument with the host over the answer to the question:
 
       <span class="inset">
         In the famous book, which traveller went around the world in 80 days?
@@ -948,7 +948,7 @@ const events = [
 
       Despite Newt’s protests, Gally insists that he must do this for her.
       Gally tells him that he can borrow her clothes, but he will need to buy himself a [top hat](#newts-top-hat).
-      (Presumably this is because [his head would be too large](#newts-large-head) for Gally’s top hat.)
+      (Presumably, this is because [his head would be too large](#newts-large-head) for Gally’s top hat.)
 
       Newt is worried that the audience will be disappointed if they are expecting a male impersonator but get an actual man.
       Gally dismisses this by saying that they will just think he is frightfully good.
@@ -1023,7 +1023,7 @@ const events = [
       [Patrick](@patrick-nightingale) appears as a reluctant guest on [Desert Island Discs](#desert-island-discs).
       He is short and dismissive when asked questions and denies any interest in music.
 
-      His first choice of record is titled <em>Strangers on the Shore</em>, which he chose because it concerns the sea shore
+      His first choice of record is titled <em>Strangers on the Shore</em>, which he chose because it concerns the seashore
       as you might find on a desert island.
     `,
   },
@@ -1060,7 +1060,7 @@ const events = [
       As if to demonstrate, Vanessa enters the room at that moment. She says:
 
       <span class="inset">
-        “Ah, Walter. There you are. Oh and Deborah too. You look very cosy over there, dear, in that window seat.”
+        “Ah, Walter. There you are. Oh, and Deborah too. You look very cosy over there, dear, in that window seat.”
       </span>
 
       Vanessa uses indirect comments like this to help Walter place people and objects in the room.
@@ -1121,7 +1121,7 @@ const events = [
       Toby counts through the <em>One for Sorrow</em> rhyme, but she only knows it up to four.
 
       Alex recites a version of the rhyme that goes well beyond the traditional seven,
-      culminating in the revolution of the magpies and the beginning of the thousand year age of magpies.
+      culminating in the revolution of the magpies and the beginning of the thousand-year age of magpies.
 
       With mock shame, Russ reveals to Toby that Alex used to be in a sketch group.
     `,
@@ -1207,7 +1207,7 @@ const events = [
     inYearSortIndex: 3,
     location: "London",
     description: `
-      [Patrick](@patrick-nightingale)’s final choice for [Desert Island Discs](#desert-island-discs) is <em>By The Sleepy Lagoon</em>,
+      [Patrick](@patrick-nightingale)’s final choice for [Desert Island Discs](#desert-island-discs) is <em>By the Sleepy Lagoon</em>,
       once again following his literal desert island theme.
 
       He declines to choose a luxury to bring with him, but then surprises the host by choosing <em>The Tale of Mrs. Tiggy-Winkle</em> by Beatrix Potter
