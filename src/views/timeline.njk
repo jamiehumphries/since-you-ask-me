@@ -56,7 +56,7 @@
           {% else %}
             <a href="/what-happened-in/episode-{{ event.episode }}{{ '/starting-from-the-beginning' if sortChronologically }}">Episode {{ event.episode }}</a>,
           {% endif %}
-          {% if activeTag === '~'%}
+          {% if activeTag === '~' %}
             <span class="active-tag">Scene {{ event.scene }}</span>
           {% else %}
             <a href="/what-happened-in/episode-{{ event.episode }}/scene-{{ event.scene }}{{ '/starting-from-the-beginning' if sortChronologically }}">Scene {{ event.scene }}</a>
