@@ -906,10 +906,10 @@ const events = [
 
       <span class="inset">
         <em>
-          Whether they’re large or whether they’re small,<br>
-          Has no effect on the rate which things fall.<br>
-          But whether you choose to accept this or not-le,<br>
-          Depends on your faith in that fool, Aristotle.
+          Whether they’re large or whether they’re small<br>
+          Has no effect on the rate which things fall<br>
+          But whether you choose to accept this or not’ll<br>
+          Depend on your faith in that fool, Aristotle
         </em>
       </span>
 
